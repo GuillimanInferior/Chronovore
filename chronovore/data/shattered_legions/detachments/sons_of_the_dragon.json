@@ -1,0 +1,73 @@
+{
+    "name": "Sons of the Dragon",
+    "color": "1a5c2e",
+    "color_dark": "487852",
+    "secondary_faction": "Legion of the Dragon",
+    "banned_keywords": [],
+    "lore": "Tempered in rift-fire and bound by oaths to the living, the Legion of the Dragon believes strength without mercy is only another Cataclysm. Their Primal Dragon forges flame into a shield for the weak \u2014 and into a furnace for those who would prey upon them.",
+    "art": true,
+    "rules": [
+        {
+            "name": "Ember Oath",
+            "lore": "The Sons of the Dragon endure what would break lesser warriors, standing amid infernos to hold the line for those who cannot.",
+            "text": "+Shattered Legions+ units from your army have !Feel No Pain 6+! against Mortal Damage. In addition, each time a +Shattered Legions+ model from your army makes an attack with a weapon that has the +[Torrent]+ or +[Melta]+ keyword, you can re-roll the Wound roll."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Dragonfire Sweep",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ unit being Activated",
+            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Ignores Cover]+ and +[Torrent]+ weapons have +1 to their =swords= Strength trait."
+        },
+        {
+            "name": "Hold the Hearth",
+            "cost": 1,
+            "when": "After an Activated enemy unit declares an attack",
+            "target": "A +Shattered Legions+ unit being attacked that is wholly within your deployment zone or within range of an objective marker you control",
+            "effect": "Until the end of the Battle Round, attacks made against the target unit have their =shield-minus= Armor Break worsened by 1 (to a minimum of 0)."
+        },
+        {
+            "name": "Forged in Flame",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
+            "effect": "Until the end of the Battle Round, models in the target unit have !Feel No Pain 5+!."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Cleansing Fire",
+            "difficulty": 7,
+            "effect": "Select one enemy unit within 18\". Roll one d6 for each model in that unit (to a maximum of 10 dice); for each unmodified result of 5+, that unit suffers 1 Mortal Damage."
+        },
+        {
+            "name": "Drake's Resilience",
+            "difficulty": 6,
+            "effect": "Until the end of the Battle Round, one friendly +Legion of the Dragon+ unit within 12\" of this +Psyker+ has !Feel No Pain 5+!."
+        },
+        {
+            "name": "Wall of Embers",
+            "difficulty": 8,
+            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, that unit has an =shield-plus= Invulnerable Save of 5+ and counts as remaining Stationary for the purpose of shooting even if it moved."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Ashen Disciple",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Drakehide Mantle",
+            "cost": 20,
+            "text": "Your +Warlord+ has an =shield-plus= Invulnerable Save of 5+."
+        },
+        {
+            "name": "Eternal Vigil",
+            "cost": 40,
+            "text": "While your +Warlord+ is on the Battlefield, friendly +Shattered Legions+ +Infantry+ units wholly within 6\" of it have !Feel No Pain 6+!."
+        }
+    ]
+}

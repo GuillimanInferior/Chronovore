@@ -1,0 +1,73 @@
+{
+    "name": "Sons of the Raven",
+    "color": "1a1a1a",
+    "color_dark": "3d3d3d",
+    "secondary_faction": "Legion of the Raven",
+    "banned_keywords": [],
+    "lore": "Born of silence and shadow, the Legion of the Raven strikes where chronal storms blind the eye. Their Primal Raven teaches that victory belongs to those unseen until the killing blow \u2014 a whisper in the dark that ends wars before the enemy knows they have begun.",
+    "art": true,
+    "rules": [
+        {
+            "name": "Strike from Nowhere",
+            "lore": "The Sons of the Raven vanish into the folds of time and reappear already mid-strike, leaving only corpses and unanswered questions.",
+            "text": "In the first Battle Round, +Shattered Legions+ units from your army are eligible to shoot in a turn in which they Advanced. In addition, each time a +Shattered Legions+ unit from your army is set up on the Battlefield using a Deep Strike or similar rule, until the end of the Battle Round weapons equipped by models in that unit have +[Precision]+."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Shadowstep",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
+            "effect": "Remove the target unit from the Battlefield and set it up again wholly within 9\" of its previous position and more than 9\" horizontally away from enemy models (or wholly within your deployment zone if that is not possible)."
+        },
+        {
+            "name": "Silent Ambush",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ unit being Activated that is wholly within Terrain",
+            "effect": "Until the end of the Battle Round, attacks made by the target unit can re-roll Hit rolls, and the unit cannot be targeted by Overwatch."
+        },
+        {
+            "name": "Fade into Night",
+            "cost": 1,
+            "when": "After an Activated enemy unit has completed its Shoot attacks",
+            "target": "A +Shattered Legions+ unit that was targeted by that shooting",
+            "effect": "Until the end of the Battle Round, the target unit has the Benefit of Cover and attacks made against it suffer -1 to Hit."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Veil of Ash",
+            "difficulty": 6,
+            "effect": "Until the end of the Battle Round, this +Psyker+ (and its attached unit, if any) has the Benefit of Cover and cannot be targeted by ranged attacks unless the attacking unit is within 12\"."
+        },
+        {
+            "name": "Murder Mark",
+            "difficulty": 7,
+            "effect": "Select one enemy unit within 18\". Until the end of the Battle Round, attacks made against that unit by friendly +Legion of the Raven+ units have +[Precision]+ and can re-roll Wound rolls of 1."
+        },
+        {
+            "name": "Phantom Dive",
+            "difficulty": 8,
+            "effect": "Select one friendly +Shattered Legions+ +Infantry+ unit within 12\". Until the end of the Battle Round, that unit can be set up in Strategic Reserves as if using Deep Strike when it ends a Normal move, and when it arrives again it can Charge."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Shadow Scion",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Cloak of Unseeing",
+            "cost": 20,
+            "text": "Your +Warlord+ has the Benefit of Cover while it is more than 12\" away from all enemy units."
+        },
+        {
+            "name": "Master of Ambush",
+            "cost": 40,
+            "text": "Your +Warlord+ and models in its attached unit (if any) have +[Scouts 6\"]+."
+        }
+    ]
+}

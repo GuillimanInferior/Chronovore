@@ -1,0 +1,73 @@
+{
+    "name": "Sons of the Nomad",
+    "color": "d9d9d9",
+    "color_dark": "b8b8b8",
+    "secondary_faction": "Legion of the Nomad",
+    "banned_keywords": [],
+    "lore": "The Legion of the Nomad refuses to be chained to any fortress or timeline. Their Primal Nomad rides the lightning between moments \u2014 strike, vanish, strike again \u2014 until the enemy's lines are a map of empty dust and broken plans.",
+    "art": true,
+    "rules": [
+        {
+            "name": "Lightning Road",
+            "lore": "Speed is the Nomad's creed. Where others dig trenches, the Sons of the Nomad open roads of storm and leave only thunder in their wake.",
+            "text": "+Shattered Legions+ units from your army can Shoot after making an Advance move. In addition, +Shattered Legions+ units from your army that have the +Mounted+ or +Vehicle+ keyword can Charge after making an Advance move."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Storm Dash",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ unit being Activated",
+            "effect": "Until the end of the Battle Round, add 2\" to the target unit's =person-running= Movement trait, and it can re-roll Advance rolls."
+        },
+        {
+            "name": "Hit and Fade",
+            "cost": 1,
+            "when": "After a friendly +Shattered Legions+ unit has completed its Shoot attacks",
+            "target": "That +Shattered Legions+ unit",
+            "effect": "The target unit can make a Normal move of up to 6\". It cannot Charge this Battle Round."
+        },
+        {
+            "name": "Outflank Gale",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ unit being Activated",
+            "effect": "Until the end of the Battle Round, the target unit can Fall Back and still Shoot and Charge, and enemy units cannot fire Overwatch against it."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Windwhisper",
+            "difficulty": 6,
+            "effect": "Until the end of the Battle Round, one friendly +Legion of the Nomad+ unit within 18\" of this +Psyker+ can Shoot and Charge after making a Fall Back move."
+        },
+        {
+            "name": "Sky-Bolt Path",
+            "difficulty": 7,
+            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, when that unit Advances, do not roll \u2014 it Advances 6\" instead."
+        },
+        {
+            "name": "Dust Veil",
+            "difficulty": 8,
+            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, ranged attacks against that unit suffer -1 to Hit, and the unit can move through enemy models when it makes a Normal or Advance move (it cannot end that move within Melee Distance of enemy models)."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Road Scion",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Storm-Runner",
+            "cost": 20,
+            "text": "Your +Warlord+ has +2\" to its =person-running= Movement trait."
+        },
+        {
+            "name": "Master of the Lightning Road",
+            "cost": 40,
+            "text": "Your +Warlord+ and models in its attached unit (if any) can Shoot and Charge after making an Advance move."
+        }
+    ]
+}

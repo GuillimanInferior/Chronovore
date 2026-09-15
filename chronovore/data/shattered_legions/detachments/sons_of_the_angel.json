@@ -1,0 +1,73 @@
+{
+    "name": "Sons of the Angel",
+    "color": "8b0000",
+    "color_dark": "a33333",
+    "secondary_faction": "Legion of the Angel",
+    "banned_keywords": [],
+    "lore": "The Legion of the Angel remembers a brighter age \u2014 and burns with grief for what the Cataclysm stole. Their Primal Angel leads them into the storm with wings of chronal fire, seeking redemption in the only language left to them: a charge that shatters the foe before doubt can take root.",
+    "art": true,
+    "rules": [
+        {
+            "name": "Redemptive Fury",
+            "lore": "In the moment of the charge, grief becomes a blade. The Sons of the Angel strike first and strike hardest, as if every enemy were the Cataclysm itself.",
+            "text": "Each time a +Shattered Legions+ unit from your army makes a Charge move, until the end of the Battle Round melee weapons equipped by models in that unit have +[Lethal Hits]+."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Descent of Wrath",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated that has the +Jet Pack+ keyword, or that Advanced this Activation",
+            "effect": "Until the end of the Battle Round, the target unit can Charge after making an Advance move, and its melee weapons have +1 to their =swords= Attacks trait."
+        },
+        {
+            "name": "Blood of the Martyrs",
+            "cost": 1,
+            "when": "After an Activated enemy unit has completed its Fight attacks",
+            "target": "A +Shattered Legions+ unit that had one or more models destroyed by that attack",
+            "effect": "The target unit can Fight as if it was Activated, but it must target the enemy unit that is currently Activated if that unit is an eligible target."
+        },
+        {
+            "name": "Angel's Aegis",
+            "cost": 1,
+            "when": "After an Activated enemy unit declares an attack",
+            "target": "The +Shattered Legions+ unit being attacked",
+            "effect": "Until the end of that attack sequence, the target unit has an =shield-plus= Invulnerable Save of 5+."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Sanguine Clarity",
+            "difficulty": 6,
+            "effect": "Until the end of the Battle Round, this +Psyker+ and models in its attached unit (if any) can re-roll Charge rolls."
+        },
+        {
+            "name": "Wings of Judgment",
+            "difficulty": 7,
+            "effect": "Select one friendly +Legion of the Angel+ unit within 12\". Until the end of the Battle Round, that unit can Fly when it makes a Normal, Advance, or Charge move."
+        },
+        {
+            "name": "Thirsting Blade",
+            "difficulty": 8,
+            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, melee weapons equipped by models in that unit have +[Devastating Wounds]+."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Heir of the Angel",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Martyr's Resolve",
+            "cost": 20,
+            "text": "The first time your +Warlord+ is destroyed, roll a d6. On a 3+, set it back up as close as possible to where it was destroyed with 3 =Heart= Health remaining and not within Melee Distance of enemy models."
+        },
+        {
+            "name": "Fury Unbound",
+            "cost": 40,
+            "text": "Melee weapons equipped by your +Warlord+ (and by models in its attached unit, if any) have +1 to their =swords= Strength trait."
+        }
+    ]
+}

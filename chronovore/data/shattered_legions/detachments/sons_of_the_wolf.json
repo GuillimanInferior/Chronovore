@@ -1,0 +1,73 @@
+{
+    "name": "Sons of the Wolf",
+    "color": "6b7c8a",
+    "color_dark": "8896a1",
+    "secondary_faction": "Legion of the Wolf",
+    "banned_keywords": [],
+    "lore": "Howling across frozen chronal wastes, the Legion of the Wolf hunts as a pack. Their Primal Wolf demands loyalty sharper than any blade \u2014 together they run down gods and monsters alike, and leave nothing for the carrion winds.",
+    "art": true,
+    "rules": [
+        {
+            "name": "Pack Hunt",
+            "lore": "Alone, a Son of the Wolf is dangerous. Together, they are inevitable \u2014 each warrior's strike opening the throat for the next.",
+            "text": "Each time a +Shattered Legions+ unit from your army makes a melee attack against an enemy unit that is within Melee Distance of one or more other friendly +Shattered Legions+ units, you can re-roll Hit rolls of 1. If that enemy unit is also your Vow of Eternity target, you can re-roll Wound rolls of 1 as well."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Sagas of the Kill",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
+            "effect": "Until the end of the Battle Round, melee weapons equipped by models in the target unit have +[Sustained Hits 1]+. If the unit Charges this Activation, those weapons also have +[Lethal Hits]+."
+        },
+        {
+            "name": "Hunting Cry",
+            "cost": 1,
+            "when": "At the start of the Battle Round",
+            "target": "One enemy unit",
+            "effect": "Until the end of the Battle Round, that unit is treated as your Vow of Eternity target in addition to any other (for the purposes of Pack Hunt and similar rules). If your original Vow of Eternity target is destroyed, this unit remains so marked."
+        },
+        {
+            "name": "Counter-Lunge",
+            "cost": 1,
+            "when": "After an Activated enemy unit has completed its Fight attacks",
+            "target": "A +Shattered Legions+ unit that was targeted by that fight and is still on the Battlefield",
+            "effect": "The target unit can Fight as if it was Activated, but must target the enemy unit that is currently Activated if eligible."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Beast-Sense",
+            "difficulty": 6,
+            "effect": "Until the end of the Battle Round, one friendly +Legion of the Wolf+ unit within 18\" of this +Psyker+ can re-roll Charge rolls and ignores any modifiers to its Move characteristic."
+        },
+        {
+            "name": "Frostbite Hex",
+            "difficulty": 7,
+            "effect": "Select one enemy unit within 18\". Until the end of the Battle Round, that unit's =person-running= Movement is reduced by 2\" and it cannot Advance."
+        },
+        {
+            "name": "Bloodhowl",
+            "difficulty": 8,
+            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, that unit's melee weapons have +1 to their =swords= Attacks trait and the unit is not Battle-Shocked."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Pack Scion",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Wolf-Brother Bond",
+            "cost": 20,
+            "text": "While your +Warlord+ is within Melee Distance of one or more other friendly +Shattered Legions+ units, it has !Feel No Pain 5+!."
+        },
+        {
+            "name": "Alpha's Challenge",
+            "cost": 40,
+            "text": "Melee weapons equipped by your +Warlord+ have +[Precision]+ and +[Devastating Wounds]+ when targeting +Character+ units."
+        }
+    ]
+}

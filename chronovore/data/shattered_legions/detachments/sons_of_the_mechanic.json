@@ -1,0 +1,73 @@
+{
+    "name": "Sons of the Mechanic",
+    "color": "5a5a5a",
+    "color_dark": "7a7a7a",
+    "secondary_faction": "Legion of the Mechanic",
+    "banned_keywords": [],
+    "lore": "Where flesh fails under the grind of endless war, the Legion of the Mechanic replaces it with chronal-forged iron. Their Primal Mechanic teaches that a warrior's true strength is measured in unbroken circuits and remorseless logic \u2014 every fallen brother rebuilt harder than before.",
+    "art": true,
+    "rules": [
+        {
+            "name": "Iron Calculus",
+            "lore": "The Sons of the Mechanic fight as a single machine: cold, precise, and unwilling to yield even a fraction of ground without extracting a toll in return.",
+            "text": "Each time a +Shattered Legions+ +Infantry+ unit from your army is selected as the target of an attack, until the end of that attack sequence models in that unit have !Feel No Pain 6+!. If the attacking unit is your army's Vow of Eternity target, that !Feel No Pain! is 5+ instead."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Cogwork Barrage",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
+            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Sustained Hits 1]+ and +[Heavy]+."
+        },
+        {
+            "name": "Refuse the Flesh",
+            "cost": 1,
+            "when": "After an Activated enemy unit has completed its Shoot or Fight attacks",
+            "target": "A +Shattered Legions+ unit that had one or more models destroyed by that attack",
+            "effect": "Until the end of the Battle Round, the target unit has !Feel No Pain 5+!."
+        },
+        {
+            "name": "Calculated Retribution",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Shattered Legions+ unit being Activated",
+            "effect": "Until the end of the Battle Round, attacks made by the target unit against your Vow of Eternity target can re-roll Hit rolls of 1 and Wound rolls of 1."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Machine Insight",
+            "difficulty": 6,
+            "effect": "Until the end of the Battle Round, one friendly +Legion of the Mechanic+ unit within 18\" of this +Psyker+ can re-roll Hit rolls of 1."
+        },
+        {
+            "name": "Chronal Overclock",
+            "difficulty": 7,
+            "effect": "Select one friendly +Shattered Legions+ +Infantry+ unit within 12\". Until the end of the Battle Round, that unit's =person-running= Movement is improved by 2\" and its ranged weapons have +[Assault]+."
+        },
+        {
+            "name": "Null Pulse",
+            "difficulty": 8,
+            "effect": "Select one enemy unit within 18\". Until the end of the Battle Round, that unit cannot re-roll Hit rolls or Wound rolls."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Forge-Born Scion",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Ironclad Frame",
+            "cost": 20,
+            "text": "Your +Warlord+ has !Feel No Pain 6+!. If it already had !Feel No Pain 6+!, it gains !Feel No Pain 5+! instead."
+        },
+        {
+            "name": "Logic of Annihilation",
+            "cost": 40,
+            "text": "Ranged weapons equipped by your +Warlord+ (and by models in its attached unit, if any) have +1 to their =bullseye= Ballistic Skill trait."
+        }
+    ]
+}
