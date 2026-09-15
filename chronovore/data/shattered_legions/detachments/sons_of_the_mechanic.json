@@ -15,42 +15,42 @@
     ],
     "strategems": [
         {
-            "name": "Cogwork Barrage",
+            "name": "Iron Volley Protocol",
             "cost": 1,
             "when": "Your unit's Activation",
-            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
-            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Sustained Hits 1]+ and +[Heavy]+."
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated that did not Advance this Activation",
+            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Heavy]+ and +1 to their =hand-fist= Strength trait."
         },
         {
-            "name": "Refuse the Flesh",
+            "name": "Replace the Weakness",
             "cost": 1,
             "when": "After an Activated enemy unit has completed its Shoot or Fight attacks",
             "target": "A +Shattered Legions+ unit that had one or more models destroyed by that attack",
-            "effect": "Until the end of the Battle Round, the target unit has !Feel No Pain 5+!."
+            "effect": "Return one destroyed model to the target unit with 1 HP remaining (it must be set up in Unit Coherency). In addition, until the end of the Battle Round the target unit has !Feel No Pain 6+!."
         },
         {
-            "name": "Calculated Retribution",
+            "name": "Logic Lock",
             "cost": 1,
             "when": "Your unit's Activation",
             "target": "Your +Shattered Legions+ unit being Activated",
-            "effect": "Until the end of the Battle Round, attacks made by the target unit against your Vow of Eternity target can re-roll Hit rolls of 1 and Wound rolls of 1."
+            "effect": "Until the end of the Battle Round, each time a model in the target unit makes a ranged attack against a +Monster+, +Vehicle+, or your Vow of Eternity target, improve that attack's =shield-minus= Armor Break by 1."
         }
     ],
     "spells": [
         {
-            "name": "Machine Insight",
+            "name": "Cogitate Weakness",
             "difficulty": 6,
-            "effect": "Until the end of the Battle Round, one friendly +Legion of the Mechanic+ unit within 18\" of this +Psyker+ can re-roll Hit rolls of 1."
+            "effect": "Select one enemy unit within 18\". Until the end of the Battle Round, ranged attacks made by friendly +Shattered Legions+ units against that unit have +[Ignores Cover]+."
         },
         {
-            "name": "Chronal Overclock",
+            "name": "Forge Mantle",
             "difficulty": 7,
-            "effect": "Select one friendly +Shattered Legions+ +Infantry+ unit within 12\". Until the end of the Battle Round, that unit's =person-running= Movement is improved by 2\" and its ranged weapons have +[Assault]+."
+            "effect": "Select one friendly +Legion of the Mechanic+ unit within 12\". Until the end of the Battle Round, models in that unit have an =shield-plus= Invulnerable Save of 5+ and !Feel No Pain 6+!."
         },
         {
-            "name": "Null Pulse",
+            "name": "Severance Pulse",
             "difficulty": 8,
-            "effect": "Select one enemy unit within 18\". Until the end of the Battle Round, that unit cannot re-roll Hit rolls or Wound rolls."
+            "effect": "Select one enemy unit within 18\". That unit suffers d3 Mortal Damage. Until the end of the Battle Round, that unit cannot benefit from the +Lone Operative+ rule and does not receive the benefit of Cover from Terrain."
         }
     ],
     "upgrades": [
