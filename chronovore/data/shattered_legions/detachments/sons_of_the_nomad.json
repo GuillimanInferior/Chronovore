@@ -4,7 +4,7 @@
     "color_dark": "b8b8b8",
     "secondary_faction": "Legion of the Nomad",
     "banned_keywords": [],
-    "lore": "The Legion of the Nomad refuses to be chained to any fortress or timeline. Their Primal Nomad rides the lightning between moments \u2014 strike, vanish, strike again \u2014 until the enemy's lines are a map of empty dust and broken plans.",
+    "lore": "The Legion of the Nomad refuses to be chained to any fortress or timeline. Their Primal Nomad rides the lightning between moments: strike, vanish, strike again, until the enemy's lines are a map of empty dust and broken plans.",
     "art": true,
     "rules": [
         {
@@ -45,7 +45,7 @@
         {
             "name": "Sky-Bolt Path",
             "difficulty": 7,
-            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, when that unit Advances, do not roll \u2014 it Advances 6\" instead."
+            "effect": "Select one friendly +Shattered Legions+ unit within 12\". Until the end of the Battle Round, when that unit Advances, do not roll; it Advances 6\" instead."
         },
         {
             "name": "Dust Veil",

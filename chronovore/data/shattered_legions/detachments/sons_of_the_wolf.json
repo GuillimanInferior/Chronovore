@@ -4,12 +4,12 @@
     "color_dark": "8896a1",
     "secondary_faction": "Legion of the Wolf",
     "banned_keywords": [],
-    "lore": "Howling across frozen chronal wastes, the Legion of the Wolf hunts as a pack. Their Primal Wolf demands loyalty sharper than any blade \u2014 together they run down gods and monsters alike, and leave nothing for the carrion winds.",
+    "lore": "Howling across frozen chronal wastes, the Legion of the Wolf hunts as a pack. Their Primal Wolf demands loyalty sharper than any blade. Together they run down gods and monsters alike, and leave nothing for the carrion winds.",
     "art": true,
     "rules": [
         {
             "name": "Pack Hunt",
-            "lore": "Alone, a Son of the Wolf is dangerous. Together, they are inevitable \u2014 each warrior's strike opening the throat for the next.",
+            "lore": "Alone, a Son of the Wolf is dangerous. Together, they are inevitable: each warrior's strike opening the throat for the next.",
             "text": "Each time a +Shattered Legions+ unit from your army makes a melee attack against an enemy unit that is within Melee Distance of one or more other friendly +Shattered Legions+ units, you can re-roll Hit rolls of 1. If that enemy unit is also your Vow of Eternity target, you can re-roll Wound rolls of 1 as well."
         }
     ],
