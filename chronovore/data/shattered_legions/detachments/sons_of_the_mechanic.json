@@ -17,8 +17,8 @@
         {
             "name": "Iron Volley Protocol",
             "cost": 1,
-            "when": "Your unit's Activation",
-            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated that did not Advance this Activation",
+            "when": "Your unit's Activation, after makes a Normal or Fall Back movement in its Movement phase",
+            "target": "Your Activated +Shattered Legions+ +Infantry+ unit",
             "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Heavy]+ and +1 to their =hand-fist= Strength trait."
         },
         {
@@ -50,7 +50,7 @@
         {
             "name": "Severance Pulse",
             "difficulty": 8,
-            "effect": "Select one enemy unit within 18\". That unit suffers d3 Mortal Damage. Until the end of the Battle Round, that unit cannot benefit from the +Lone Operative+ rule and does not receive the benefit of Cover from Terrain."
+            "effect": "Select one enemy unit within 18\". That unit suffers d3 Mortal Damage. Until the end of the Battle Round, that unit cannot benefit from the +Lone Operative+ rule and does not receive the Benefit of Cover from Terrain."
         }
     ],
     "upgrades": [
