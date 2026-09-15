@@ -19,7 +19,7 @@ class Unit(Base):
 
     @property
     def ppm(self):
-        return self.ppm_computed()
+        return self.__dict__.get('ppm', self.ppm_computed())
 
     @property
     def faction_rules(self):
