@@ -1,0 +1,51 @@
+{
+    "name": "The Primal Raven",
+    "move": 10,
+    "tough": 9,
+    "save": 2,
+    "hp": 10,
+    "lead": 5,
+    "oc": 4,
+    "invuln": 4,
+    "base": 60,
+    "keywords": [
+        "Monster",
+        "Character",
+        "Hero",
+        "Supreme Commander",
+        "Primal",
+        "Fly"
+    ],
+    "secondary_faction": "Legion of the Raven",
+    "core_rules": [
+        "Deep Strike",
+        "Infiltrators",
+        "Lone Operative"
+    ],
+    "unit_rules": [
+        {
+            "name": "The Raven",
+            "text": "This model is eligible to shoot in a turn in which it Advanced. Each time this model is set up on the Battlefield using Deep Strike or a similar rule, until the end of the Battle Round weapons equipped by this model have +[Precision]+ and +[Ignores Cover]+."
+        },
+        {
+            "name": "Bodyguards of the Raven",
+            "text": "While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit, this model has the +Stealth+ keyword."
+        }
+    ],
+    "range_weapons": [
+        "whisper_needle"
+    ],
+    "melee_weapons": [
+        "shadow_talons"
+    ],
+    "composition": [
+        "1 Primal Raven"
+    ],
+    "models_min": 1,
+    "models_max": 1,
+    "default_gear": [
+        "whisper_needle",
+        "shadow_talons"
+    ],
+    "art": true
+}

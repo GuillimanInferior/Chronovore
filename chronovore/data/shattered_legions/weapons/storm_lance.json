@@ -1,0 +1,12 @@
+{
+    "name": "Storm Lance",
+    "keywords": [
+        "Lance",
+        "Devastating Wounds"
+    ],
+    "atk": 6,
+    "skl": 2,
+    "str": 10,
+    "ap": 3,
+    "dmg": 3
+}

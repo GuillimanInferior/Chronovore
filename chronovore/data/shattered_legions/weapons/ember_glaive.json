@@ -1,0 +1,12 @@
+{
+    "name": "Ember Glaive",
+    "keywords": [
+        "Devastating Wounds",
+        "Incendiary"
+    ],
+    "atk": 6,
+    "skl": 2,
+    "str": 12,
+    "ap": 3,
+    "dmg": 3
+}

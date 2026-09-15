@@ -1,0 +1,12 @@
+{
+    "name": "Shadow Talons",
+    "keywords": [
+        "Precision",
+        "Lethal Hits"
+    ],
+    "atk": 8,
+    "skl": 2,
+    "str": 8,
+    "ap": 3,
+    "dmg": 2
+}

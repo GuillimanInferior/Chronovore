@@ -1,0 +1,14 @@
+{
+    "name": "Thunderbolt Carbine",
+    "keywords": [
+        "Assault",
+        "Rapid Fire 2",
+        "Lethal Hits"
+    ],
+    "rng": 18,
+    "atk": 4,
+    "skl": 2,
+    "str": 6,
+    "ap": 2,
+    "dmg": 2
+}

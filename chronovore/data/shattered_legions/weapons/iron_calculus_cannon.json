@@ -1,0 +1,14 @@
+{
+    "name": "Iron Calculus Cannon",
+    "keywords": [
+        "Anti-Vehicle 3+",
+        "Heavy",
+        "Sustained Hits 1"
+    ],
+    "rng": 24,
+    "atk": "3",
+    "skl": 2,
+    "str": 10,
+    "ap": 3,
+    "dmg": 3
+}

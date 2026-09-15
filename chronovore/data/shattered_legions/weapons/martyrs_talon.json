@@ -1,0 +1,29 @@
+{
+    "name": "Martyr's Talon",
+    "profiles": [
+        {
+            "name": "Strike",
+            "keywords": [
+                "Lethal Hits",
+                "Precision"
+            ],
+            "atk": 8,
+            "skl": 2,
+            "str": 10,
+            "ap": 3,
+            "dmg": 3
+        },
+        {
+            "name": "Sweep",
+            "keywords": [
+                "Lethal Hits",
+                "Sustained Hits 1"
+            ],
+            "atk": 14,
+            "skl": 2,
+            "str": 6,
+            "ap": 2,
+            "dmg": 1
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Whisper Needle",
+    "keywords": [
+        "Heavy",
+        "Precision",
+        "Ignores Cover"
+    ],
+    "rng": 30,
+    "atk": 2,
+    "skl": 2,
+    "str": 8,
+    "ap": 3,
+    "dmg": 3
+}

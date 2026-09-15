@@ -1,0 +1,27 @@
+{
+    "name": "Fang of the Pack",
+    "profiles": [
+        {
+            "name": "Bite",
+            "keywords": [
+                "Lethal Hits"
+            ],
+            "atk": 6,
+            "skl": 2,
+            "str": 12,
+            "ap": 3,
+            "dmg": 3
+        },
+        {
+            "name": "Rending",
+            "keywords": [
+                "Sustained Hits 2"
+            ],
+            "atk": 10,
+            "skl": 2,
+            "str": 7,
+            "ap": 2,
+            "dmg": 2
+        }
+    ]
+}

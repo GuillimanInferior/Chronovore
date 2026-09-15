@@ -1,0 +1,49 @@
+{
+    "name": "The Primal Wolf",
+    "move": 10,
+    "tough": 9,
+    "save": 2,
+    "hp": 10,
+    "lead": 5,
+    "oc": 4,
+    "invuln": 4,
+    "base": 60,
+    "keywords": [
+        "Monster",
+        "Character",
+        "Hero",
+        "Supreme Commander",
+        "Primal"
+    ],
+    "secondary_faction": "Legion of the Wolf",
+    "core_rules": [
+        "Leader [Infantry]",
+        "Fights First"
+    ],
+    "unit_rules": [
+        {
+            "name": "The Wolf",
+            "text": "Each time this model makes a melee attack against an enemy unit that is within Melee Distance of one or more other friendly +Shattered Legions+ units, you can re-roll Hit and Wound rolls of 1. In addition, while this model is within Melee Distance of an enemy unit, friendly +Shattered Legions+ units wholly within 6\" can re-roll Hit rolls of 1 in melee."
+        },
+        {
+            "name": "Bodyguards of the Wolf",
+            "text": "While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit and not a +Leader+, this model has +Lone Operative+."
+        }
+    ],
+    "range_weapons": [
+        "hunt_pistol"
+    ],
+    "melee_weapons": [
+        "fang_of_the_pack"
+    ],
+    "composition": [
+        "1 Primal Wolf"
+    ],
+    "models_min": 1,
+    "models_max": 1,
+    "default_gear": [
+        "hunt_pistol",
+        "fang_of_the_pack"
+    ],
+    "art": true
+}

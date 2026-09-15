@@ -1,0 +1,51 @@
+{
+    "name": "The Primal Angel",
+    "move": 12,
+    "tough": 9,
+    "save": 2,
+    "hp": 10,
+    "lead": 5,
+    "oc": 4,
+    "invuln": 4,
+    "base": 60,
+    "keywords": [
+        "Monster",
+        "Character",
+        "Hero",
+        "Supreme Commander",
+        "Primal",
+        "Jet Pack",
+        "Fly"
+    ],
+    "secondary_faction": "Legion of the Angel",
+    "core_rules": [
+        "Deep Strike",
+        "Fights First"
+    ],
+    "unit_rules": [
+        {
+            "name": "The Angel",
+            "text": "Each time this model makes a Charge move, until the end of the Battle Round melee weapons equipped by this model have +[Lethal Hits]+ and +1 to their =swords= Attacks trait. In addition, friendly +Shattered Legions+ units within 6\" that Charge this Battle Round have +[Lethal Hits]+ on their melee weapons until the end of the Battle Round."
+        },
+        {
+            "name": "Bodyguards of the Angel",
+            "text": "While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit, this model has +Lone Operative+."
+        }
+    ],
+    "range_weapons": [
+        "absolution_flare"
+    ],
+    "melee_weapons": [
+        "martyrs_talon"
+    ],
+    "composition": [
+        "1 Primal Angel"
+    ],
+    "models_min": 1,
+    "models_max": 1,
+    "default_gear": [
+        "absolution_flare",
+        "martyrs_talon"
+    ],
+    "art": true
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Hunt Pistol",
+    "keywords": [
+        "Assault",
+        "Pistol",
+        "Precision"
+    ],
+    "rng": 12,
+    "atk": 3,
+    "skl": 2,
+    "str": 5,
+    "ap": 1,
+    "dmg": 2
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Absolution Flare",
+    "keywords": [
+        "Assault",
+        "Incendiary",
+        "Pistol"
+    ],
+    "rng": 12,
+    "atk": 4,
+    "skl": 2,
+    "str": 5,
+    "ap": 1,
+    "dmg": 2
+}
