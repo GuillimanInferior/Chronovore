@@ -67,7 +67,7 @@
         {
             "name": "Logic of Annihilation",
             "cost": 40,
-            "text": "Ranged weapons equipped by your +Warlord+ (and by models in its attached unit, if any) have +1 to their =bullseye= Ballistic Skill trait."
+            "text": "Ranged weapons equipped by your +Warlord+ (and by models in its attached unit, if any) have +1 to their =bow-arrow= Ranged Skill trait."
         }
     ]
 }

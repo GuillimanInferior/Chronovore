@@ -19,7 +19,7 @@
             "cost": 1,
             "when": "Your unit's Activation",
             "target": "Your +Shattered Legions+ unit being Activated",
-            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Ignores Cover]+ and +[Torrent]+ weapons have +1 to their =swords= Strength trait."
+            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the target unit have +[Ignores Cover]+ and +[Torrent]+ weapons have +1 to their =hand-fist= Strength trait."
         },
         {
             "name": "Hold the Hearth",
