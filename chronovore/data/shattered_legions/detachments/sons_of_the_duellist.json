@@ -14,25 +14,25 @@
     ],
     "strategems": [
         {
-            "name": "Returning Fury",
+            "name": "Blade Answer",
             "cost": 1,
             "when": "Your unit's Activation",
             "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
-            "effect": "Until the end of the Battle Round, weapons equipped by the target unit have +[Lethal Hits]+. Additionally, until the end of the Battle Round, while any other +Shattered Legions+ units in your army are Battle-Shocked, unmodified Hit rolls of 5+ made by the target unit score a Critical Hit."
+            "effect": "Until the end of the Battle Round, melee weapons equipped by models in the target unit have +[Lethal Hits]+. If the target unit is Battle-Shocked, those weapons also have +1 to their =swords= Attacks trait."
         },
         {
-            "name": "Inhuman Rage",
+            "name": "Unbroken Guard",
             "cost": 1,
-            "when": "Your unit's Activation",
-            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
-            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the unit have +[Assault]+, +[Heavy]+, and +[Ignores Cover]+."
+            "when": "After an Activated enemy unit declares an attack",
+            "target": "The +Shattered Legions+ unit being attacked",
+            "effect": "Until the end of that attack sequence, models in the target unit have an =shield-plus= Invulnerable Save of 5+. If the target unit is Battle-Shocked, that save is 4+ instead."
         },
         {
-            "name": "Silent Retribution",
+            "name": "Riposte Volley",
             "cost": 1,
-            "when": "After an Activated enemy unit has completed its Shoot attacks.",
-            "target": "A +Shattered Legions+ unit that just had one or more of its models destroyed as a result of that attacks",
-            "effect": "The selected unit can shoot as if it was Activated, but it must target the enemy unit that is currently Activated, and it may only do so if that enemy unit is an eligible target."
+            "when": "After an Activated enemy unit has completed its Shoot attacks",
+            "target": "A +Shattered Legions+ unit that just had one or more of its models destroyed as a result of those attacks",
+            "effect": "The target unit can shoot as if it was Activated, but it must target the enemy unit that is currently Activated, and only if that enemy unit is an eligible target."
         }
     ],
     "spells": [
@@ -44,12 +44,12 @@
         {
             "name": "Righteous Motivation",
             "difficulty": 8,
-            "effect": "Select one friendly +Legion of the Duellist+ unit within 12\". Until the end of the Battle-Round, the selected unit can re-roll the Hit roll and the Wound Roll for its melee attacks."
+            "effect": "Select one friendly +Legion of the Duellist+ unit within 12\". Until the end of the Battle Round, models in that unit can re-roll Hit rolls and Wound rolls for melee attacks."
         },
         {
             "name": "Deepening Fear",
             "difficulty": 8,
-            "effect": "Select one enemy unit within 24\". Until the end of the Battle Round, the selected unit:\n\n* Has its =flag= Leadership worsened by 1\n* Has an =arrows-to-circle= Objective Control trait of 0\n* Cannot use +Secure Objectives+, "
+            "effect": "Select one enemy unit within 24\". Until the end of the Battle Round, that unit has its =flag= Leadership worsened by 1, has an =arrows-to-circle= Objective Control trait of 0, and cannot use +Secure Objectives+."
         }
     ],
     "upgrades": [

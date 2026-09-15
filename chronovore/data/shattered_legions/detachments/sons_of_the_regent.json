@@ -20,7 +20,7 @@
                     "text": "Your +Shattered Legions+ units can Shoot and Charge after making a Fall Back move."
                 },
                 {
-                    "name": "Unrelenting Aggression",
+                    "name": "Relentless Advance",
                     "text": "Your +Shattered Legions+ units can Charge after making an Advance move."
                 }
             ]
@@ -38,7 +38,7 @@
             "name": "Inhuman Strategy",
             "cost": 1,
             "when": "Any time",
-            "target": "A \"Wisdom of the Shattered\" Tactic, other than the one chosen at the beginning of the Battle Round. ",
+            "target": "A \"Wisdom of the Regent\" Tactic, other than the one chosen at the beginning of the Battle Round.",
             "effect": "Until the end of the Battle Round, the target Tactic is now active for your army, instead of any other Tactic."
         },
         {

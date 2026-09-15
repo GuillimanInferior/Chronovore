@@ -14,42 +14,42 @@
     ],
     "strategems": [
         {
-            "name": "Returning Fury",
+            "name": "Raise the Bastion",
             "cost": 1,
             "when": "Your unit's Activation",
-            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
-            "effect": "Until the end of the Battle Round, weapons equipped by the target unit have +[Lethal Hits]+. Additionally, until the end of the Battle Round, while any other +Shattered Legions+ units in your army are Battle-Shocked, unmodified Hit rolls of 5+ made by the target unit score a Critical Hit."
+            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated that is wholly within range of an objective marker",
+            "effect": "Until the end of the Battle Round, models in the target unit have the Benefit of Cover and +1 to their =arrows-to-circle= Objective Control trait."
         },
         {
-            "name": "Inhuman Rage",
+            "name": "Siege Calculus",
             "cost": 1,
             "when": "Your unit's Activation",
-            "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
-            "effect": "Until the end of the Battle Round, ranged weapons equipped by models in the unit have +[Assault]+, +[Heavy]+, and +[Ignores Cover]+."
+            "target": "Your +Shattered Legions+ unit being Activated",
+            "effect": "Until the end of the Battle Round, each time a model in the target unit makes an attack against a +Monster+, +Vehicle+, or your Vow of Eternity target, re-roll Wound rolls of 1. Against your Vow of Eternity target, also improve that attack's =shield-minus= Armor Break by 1."
         },
         {
-            "name": "Silent Retribution",
+            "name": "Unbroken Vigil",
             "cost": 1,
-            "when": "After an Activated enemy unit has completed its Shoot attacks.",
-            "target": "A +Shattered Legions+ unit that just had one or more of its models destroyed as a result of that attacks",
-            "effect": "The selected unit can shoot as if it was Activated, but it must target the enemy unit that is currently Activated, and it may only do so if that enemy unit is an eligible target."
+            "when": "After an Activated enemy unit ends a Normal, Advance, or Fall Back move within 18\" of a friendly +Shattered Legions+ unit",
+            "target": "That friendly +Shattered Legions+ unit",
+            "effect": "The target unit can shoot as if it was Activated, but it must target that enemy unit, and only if that enemy unit is an eligible target. Until the end of that shoot sequence, ranged weapons equipped by models in the target unit have +[Heavy]+."
         }
     ],
     "spells": [
         {
-            "name": "Mind Worm",
+            "name": "Chronal Scaffold",
+            "difficulty": 6,
+            "effect": "Select one friendly +Legion of the Architect+ unit within 12\". Until the end of the Battle Round, models in that unit have an =shield-plus= Invulnerable Save of 5+ and the Benefit of Cover."
+        },
+        {
+            "name": "Collapse the Span",
             "difficulty": 7,
-            "effect": "Select one enemy unit within 18\". It suffers 1 Mortal Damage and must take a Battle-Shock test."
+            "effect": "Select one enemy unit within 18\" that is within 3\" of a Terrain feature. That unit suffers d3 Mortal Damage, and until the end of the Battle Round it does not receive the Benefit of Cover from Terrain."
         },
         {
-            "name": "Righteous Motivation",
+            "name": "Bastion Pulse",
             "difficulty": 8,
-            "effect": "Select one friendly +Legion of the Duellist+ unit within 12\". Until the end of the Battle-Round, the selected unit can re-roll the Hit roll and the Wound Roll for its melee attacks."
-        },
-        {
-            "name": "Deepening Fear",
-            "difficulty": 8,
-            "effect": "Select one enemy unit within 24\". Until the end of the Battle Round, the selected unit:\n\n* Has its =flag= Leadership worsened by 1\n* Has an =arrows-to-circle= Objective Control trait of 0\n* Cannot use +Secure Objectives+, "
+            "effect": "Select one friendly +Shattered Legions+ unit within 18\" of this +Psyker+. Until the end of the Battle Round, that unit has +1 to its =arrows-to-circle= Objective Control trait, and enemy units cannot use +Secure Objectives+ while within Engagement Range of it."
         }
     ],
     "upgrades": [
