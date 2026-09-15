@@ -43,5 +43,5 @@
     "default_gear": [
         "abyssal_lance_melee"
     ],
-    "art": true
+    "art": false
 }
