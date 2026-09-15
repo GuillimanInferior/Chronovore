@@ -40,5 +40,6 @@
     "default_gear":[
         "psychic_scream",
         "neural_tentacles"
-    ]
+    ],
+    "art":true
 }
