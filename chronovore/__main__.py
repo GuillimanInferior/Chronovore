@@ -27,6 +27,10 @@ app.config["SITE_NAME"]                     = environ.get("SITE_NAME", "AltHamme
 app.config['FORCE_HTTPS']                   = bool(int(environ.get("FORCE_HTTPS", 1)))
 app.config['SESSION_COOKIE_SECURE']         = True
 
+if environ.get("HEROKU_PR_NUMBER"):
+    app.config["SITE_NAME"] += f" TEST PR-{environ.get('HEROKU_PR_NUMBER')}"
+
+
 #===STYLE===
 app.config['COLOR_PRIMARY']                 = environ.get("COLOR_PRIMARY", "0d6efd").lstrip().rstrip()
 app.config['COLOR_SECONDARY']               = environ.get("COLOR_SECONDARY", "6c757d").lstrip().rstrip()
