@@ -1,0 +1,51 @@
+{
+    "name": "Grievous Rhino",
+    "move": 8,
+    "tough": 9,
+    "save": 2,
+    "hp": 10,
+    "lead": 7,
+    "oc": 3,
+    "invuln": 4,
+    "psyker": 1,
+    "base": 60,
+    "keywords": [
+        "Monster",
+        "Character",
+        "Hive Will",
+        "Psyker",
+        "Prime"
+    ],
+    "core_rules": [
+        "Deadly Demise D3"
+    ],
+    "unit_rules": [
+        {
+            "name": "Hive Commander",
+            "text": "At the start of the Battle Round, if this model is on the battlefield, you gain 1 CP."
+        },
+        {
+            "name": "Domination of the Hive",
+            "text": "While a friendly +Hunger+ unit is within 9\" of this model, that unit is always considered to be within Hive Will range."
+        },
+        {
+            "name": "Malign Presence",
+            "text": "If this model is your Warlord, each time your opponent targets a unit within 12\" of this model with a Stratagem, increase that Stratagem's CP cost by 1."
+        }
+    ],
+    "psychic_weapons": [
+        "will_pulse"
+    ],
+    "melee_weapons": [
+        "chitinous_sabres"
+    ],
+    "wargear": [],
+    "composition": [
+        "1 Grievous Rhino"
+    ],
+    "default_gear": [
+        "will_pulse",
+        "chitinous_sabres"
+    ],
+    "art": true
+}

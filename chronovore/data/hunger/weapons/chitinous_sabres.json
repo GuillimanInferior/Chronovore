@@ -1,0 +1,11 @@
+{
+    "name": "Chitinous Sabres",
+    "keywords": [
+        "Twin-Linked"
+    ],
+    "atk": 8,
+    "skl": 2,
+    "str": 9,
+    "ap": 2,
+    "dmg": 3
+}

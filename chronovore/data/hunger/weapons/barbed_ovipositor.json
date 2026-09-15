@@ -1,0 +1,12 @@
+{
+    "name": "Barbed Ovipositor",
+    "keywords": [
+        "Extra Attacks",
+        "Anti-Infantry 3+"
+    ],
+    "atk": 1,
+    "skl": 2,
+    "str": 3,
+    "ap": 2,
+    "dmg": 3
+}

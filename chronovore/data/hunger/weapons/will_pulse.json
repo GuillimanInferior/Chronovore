@@ -1,0 +1,13 @@
+{
+    "name": "Will Pulse",
+    "keywords": [
+        "Psychic",
+        "Torrent"
+    ],
+    "rng": 18,
+    "atk": "d6+3",
+    "psk": 5,
+    "target": "single",
+    "ap": 1,
+    "dmg": 2
+}
