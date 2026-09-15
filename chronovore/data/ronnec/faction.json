@@ -10,5 +10,6 @@
         }
     ],
     "color":"007000",
-    "color_dark": "338d33"
+    "color_dark": "338d33",
+    "art": true
 }

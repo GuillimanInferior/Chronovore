@@ -24,6 +24,12 @@
   <p><i>{{ f.lore }}</i></p>
   {% endif %}
 
+  {% if f.art %}
+  <div class="card m=0 border-0">
+    <img class="img-fluid" src="/assets/images/art/{{ f.id }}/splash.png">
+  </div>
+  {% endif %}
+
   {% filter numbered_markdown %}
 
   # {{ f.name }} Faction Rules
