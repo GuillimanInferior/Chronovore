@@ -48,9 +48,9 @@ app.config["DEBUG_POINTS"]                  =bool(int(environ.get("DEBUG_POINTS"
 
 
 #Iterate through all units; this will precompute and save points
-from .helpers.get import get_factions
+from .helpers.get import get_factions, get_faction
 for faction in get_factions():
-    for unit in faction.unit_listing:
+    for unit in get_faction(faction.id).unit_listing:
         pass
 
 @app.before_request
