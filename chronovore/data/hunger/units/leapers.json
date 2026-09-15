@@ -1,4 +1,4 @@
-{    
+{
     "name": "Leapers",
     "move": 10,
     "tough": 5,
@@ -10,22 +10,28 @@
     "keywords": [
         "Infantry"
     ],
-    "core_rules": ["Infiltrators", "Stealth"],
+    "core_rules": [
+        "Infiltrators",
+        "Stealth"
+    ],
     "unit_rules": [
         {
-            "name":"Stealthy Pounch",
-            "text":"The Heroic Interception strategem costs 1 CP less when targeted on this unit."
+            "name": "Stealthy Pounch",
+            "text": "The Heroic Interception strategem costs 1 CP less when targeted on this unit."
         }
     ],
     "range_weapons": [],
-    "melee_weapons": ["leaper_talons"],
+    "melee_weapons": [
+        "leaper_talons"
+    ],
     "wargear": [],
-    "composition":[
+    "composition": [
         "3-6 Leapers"
     ],
     "models_min": 3,
     "models_max": 6,
-    "default_gear":[
+    "default_gear": [
         "leaper_talons"
-    ]
+    ],
+    "art": true
 }

@@ -1,29 +1,36 @@
-{    
+{
     "name": "Flayers",
     "base": 28,
-    "move":5,
+    "move": 5,
     "tough": 4,
     "save": 4,
-    "hp":1,
+    "hp": 1,
     "lead": 7,
     "oc": 1,
     "keywords": [
         "Infantry"
     ],
-    "core_rules": ["Infiltrators", "Stealth"],
-    "unit_rules": [{
-            "name":"Flesh Fear",
-            "text":"When attacking, if the target is below Half-Strength, all successfull Hit rolls are Critical Hits."
+    "core_rules": [
+        "Infiltrators",
+        "Stealth"
+    ],
+    "unit_rules": [
+        {
+            "name": "Flesh Fear",
+            "text": "When attacking, if the target is below Half-Strength, all successfull Hit rolls are Critical Hits."
         }
     ],
     "range_weapons": [],
-    "melee_weapons": ["flayer_claws"],
-    "composition":[
+    "melee_weapons": [
+        "flayer_claws"
+    ],
+    "composition": [
         "5-10 Flaying Ones"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "flayer_claws"
-    ]
+    ],
+    "art": true
 }

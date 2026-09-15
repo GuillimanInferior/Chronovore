@@ -1,10 +1,10 @@
-{    
+{
     "name": "Hokkhaan Destroyer",
     "base": 50,
-    "move":7,
+    "move": 7,
     "tough": 5,
     "save": 3,
-    "hp":5,
+    "hp": 5,
     "lead": 6,
     "oc": 1,
     "keywords": [
@@ -12,24 +12,31 @@
         "Destroyer",
         "Character"
     ],
-    "core_rules": ["Deep Strike", "Lone Operative"],
-    "unit_rules": [{
-            "name":"Inescapable Death",
-            "text":"Once per Battle Round, one unit with this ability may use the Overwatch strategem, even if that Strategem has already been used this Battle Round. It costs 1 CP less. Additionally, while using the Overwatch strategem, unmodified Hit rolls of 2+ are successful."
+    "core_rules": [
+        "Deep Strike",
+        "Lone Operative"
+    ],
+    "unit_rules": [
+        {
+            "name": "Inescapable Death",
+            "text": "Once per Battle Round, one unit with this ability may use the Overwatch strategem, even if that Strategem has already been used this Battle Round. It costs 1 CP less. Additionally, while using the Overwatch strategem, unmodified Hit rolls of 2+ are successful."
         },
         {
-            "name":"Multi-Threat Eliminator",
-            "text":"After an enemy unit Shoots a friendly +Ronnec+ unit within 3\", this model can perform a Shoot action."
+            "name": "Multi-Threat Eliminator",
+            "text": "After an enemy unit Shoots a friendly +Ronnec+ unit within 3\", this model can perform a Shoot action."
         }
     ],
-    "range_weapons": ["disintegrator_pistols"],
+    "range_weapons": [
+        "disintegrator_pistols"
+    ],
     "melee_weapons": [],
-    "composition":[
+    "composition": [
         "1 Hokkhaan Destroyer"
     ],
     "models_min": 1,
     "models_max": 1,
-    "default_gear":[
+    "default_gear": [
         "disintegrator_pistols"
-    ]
+    ],
+    "art": true
 }

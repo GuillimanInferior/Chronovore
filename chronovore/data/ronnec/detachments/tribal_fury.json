@@ -1,7 +1,7 @@
 {
     "name": "Tribal Fury",
     "lore": "Though primative in their organization, the tribes of the Ronnec are nevertheless wage fierce war. Blessed with futuristic technology, the warriors of the Ronnec tribes follow their elders without question.",
-    "rules": [ 
+    "rules": [
         {
             "name": "Leadership Discipline",
             "lore": "The tribal lords of the Ronnec make war in a cold and calculated fashion. Their commonds crackle out across the battlefield, compelling their warriors into battle, one step at a time.",
@@ -32,21 +32,21 @@
             "effect": "Until the end of the Battle Round, your unit has +1 to its Hit Rolls."
         }
     ],
-    "upgrades":[
+    "upgrades": [
         {
-            "name":"Discipline of the Tribal Lord",
-            "cost":10,
-            "text":"Your +Warlord+ has +Secure Objectives+."
+            "name": "Discipline of the Tribal Lord",
+            "cost": 10,
+            "text": "Your +Warlord+ has +Secure Objectives+."
         },
         {
-            "name":"Strength of the Tribal Lord",
-            "cost":20,
-            "text":"While your +Warlord+ is leading a unit, the unit can re-roll Hit rolls of 1."
+            "name": "Strength of the Tribal Lord",
+            "cost": 20,
+            "text": "While your +Warlord+ is leading a unit, the unit can re-roll Hit rolls of 1."
         },
         {
-            "name":"Protection of the Tribal Lord",
-            "cost":40,
-            "strategem":{
+            "name": "Protection of the Tribal Lord",
+            "cost": 40,
+            "strategem": {
                 "name": "Black Void Totem",
                 "cost": 1,
                 "when": "After the Activated enemy unit passes a Psychic Test for a Spell or Psychic Weapon",
@@ -54,5 +54,6 @@
                 "effect": "The targeted +Ronnec+ +Character+ model may attempt a Deny the Psychic roll against the Activated unit, even though it is not a +Psyker+"
             }
         }
-    ]
+    ],
+    "art": true
 }

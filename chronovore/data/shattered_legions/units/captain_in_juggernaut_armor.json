@@ -1,14 +1,14 @@
-{    
+{
     "name": "Captain",
     "subtitle": "in Juggernaut armor",
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 2,
-    "hp":6,
+    "hp": 6,
     "lead": 6,
     "oc": 1,
     "invuln": 4,
-    "base":40,
+    "base": 40,
     "keywords": [
         "Infantry",
         "Character",
@@ -19,13 +19,14 @@
         "Deep Strike",
         "Leader [Juggernaut]"
     ],
-    "unit_rules": [{
-            "name":"Rites of Battle",
-            "text":"Once per Battle Round, you may target a friendly +Captain+ model (and its attached unit) with a Strategem, even if that Strategem has already been used that Battle Round. The Strategem costs 1 CP less."
+    "unit_rules": [
+        {
+            "name": "Rites of Battle",
+            "text": "Once per Battle Round, you may target a friendly +Captain+ model (and its attached unit) with a Strategem, even if that Strategem has already been used that Battle Round. The Strategem costs 1 CP less."
         },
         {
-            "name":"Sword of Hatred",
-            "text":"You may re-roll Charge rolls made for this model's unit."
+            "name": "Sword of Hatred",
+            "text": "You may re-roll Charge rolls made for this model's unit."
         }
     ],
     "range_weapons": [
@@ -35,16 +36,17 @@
         "lightning_fist",
         "relic_power_sword"
     ],
-    "composition":[
+    "composition": [
         "1 Juggernaut Captain"
     ],
-    "default_gear":[
+    "default_gear": [
         "dual_heavy_slug_pistol",
         "lightning_fist"
     ],
-    "replacement_gear":{
-        "Lightning Fist":[
+    "replacement_gear": {
+        "Lightning Fist": [
             "relic_power_sword"
         ]
-    }
+    },
+    "art": true
 }

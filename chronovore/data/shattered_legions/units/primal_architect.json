@@ -1,13 +1,13 @@
-{    
+{
     "name": "The Primal Architect",
-    "move":8,
+    "move": 8,
     "tough": 9,
     "save": 2,
-    "hp":10,
+    "hp": 10,
     "lead": 5,
     "oc": 4,
     "invuln": 4,
-    "base":60,
+    "base": 60,
     "keywords": [
         "Monster",
         "Character",
@@ -15,16 +15,18 @@
         "Supreme Commander",
         "Primal"
     ],
-    "secondary_faction":"Legion of the Architect",
-    "core_rules": ["Leader [Heavy]"],
+    "secondary_faction": "Legion of the Architect",
+    "core_rules": [
+        "Leader [Heavy]"
+    ],
     "unit_rules": [
         {
-            "name":"The Architect",
-            "text":"While a +Leader+, ranged weapons equipped by models in the unit have +[Ignores Cover]+."
+            "name": "The Architect",
+            "text": "While a +Leader+, ranged weapons equipped by models in the unit have +[Ignores Cover]+."
         },
         {
-            "name":"Bodyguards of the Architect",
-            "text":"While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit and not a +Leader+, this model has +Lone Operative+."
+            "name": "Bodyguards of the Architect",
+            "text": "While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit and not a +Leader+, this model has +Lone Operative+."
         }
     ],
     "range_weapons": [
@@ -33,13 +35,14 @@
     "melee_weapons": [
         "primal_claw"
     ],
-    "composition":[
+    "composition": [
         "1 Primal Architect"
     ],
-    "models_min":1,
-    "models_max":1,
-    "default_gear":[
+    "models_min": 1,
+    "models_max": 1,
+    "default_gear": [
         "devastation",
         "primal_claw"
-    ]
+    ],
+    "art": true
 }

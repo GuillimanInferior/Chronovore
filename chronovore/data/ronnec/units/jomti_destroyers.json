@@ -1,32 +1,41 @@
-{    
+{
     "name": "Jomti Destroyers",
     "base": 50,
-    "move":5,
+    "move": 5,
     "tough": 4,
     "save": 4,
-    "hp":3,
+    "hp": 3,
     "lead": 7,
     "oc": 1,
     "keywords": [
         "Infantry",
         "Destroyer"
     ],
-    "core_rules": ["Infiltrators", "Stealth"],
-    "unit_rules": [{
-            "name":"Whirling Onslaught",
-            "text":"This unit may choose to ignore any or all modifiers to its Melee Skill property and/or Hit rolls."
+    "core_rules": [
+        "Infiltrators",
+        "Stealth"
+    ],
+    "unit_rules": [
+        {
+            "name": "Whirling Onslaught",
+            "text": "This unit may choose to ignore any or all modifiers to its Melee Skill property and/or Hit rolls."
         }
     ],
     "range_weapons": [],
-    "melee_weapons": ["phaseblades"],
-    "wargear":["kratucyte"],
-    "composition":[
+    "melee_weapons": [
+        "phaseblades"
+    ],
+    "wargear": [
+        "kratucyte"
+    ],
+    "composition": [
         "3-6 Jomti Destroyers",
         "1 Kratucyte token per 3 Jomti Destroyers"
     ],
     "models_min": 3,
     "models_max": 6,
-    "default_gear":[
+    "default_gear": [
         "phaseblades"
-    ]
+    ],
+    "art": true
 }

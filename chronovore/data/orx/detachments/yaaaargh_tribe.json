@@ -25,7 +25,7 @@
             "effect": "Move this model's unit to anywhere on the battlefield that is at least 9\" away from all enemy models."
         }
     ],
-    "strategems":[
+    "strategems": [
         {
             "name": "Ere We Go",
             "cost": 1,
@@ -48,21 +48,22 @@
             "effect": "Until the end of the Activation, unmodified Hit rolls of 5+ score a Critical Hit."
         }
     ],
-    "upgrades":[
+    "upgrades": [
         {
-            "name":"Kunnin But Brutal",
-            "cost":10,
-            "text":"While your +Warlord+ is leading a unit, that unit may Shoot and Charge after making a Fall Back movement."
+            "name": "Kunnin But Brutal",
+            "cost": 10,
+            "text": "While your +Warlord+ is leading a unit, that unit may Shoot and Charge after making a Fall Back movement."
         },
         {
-            "name":"Follow Me Ladz",
-            "cost":20,
-            "text":"+Leader+ models and their attached +Bodyguard+ models have +1\" to their =person-running= Movement trait."
+            "name": "Follow Me Ladz",
+            "cost": 20,
+            "text": "+Leader+ models and their attached +Bodyguard+ models have +1\" to their =person-running= Movement trait."
         },
         {
-            "name":"Supa-Cyborx",
-            "cost":40,
-            "text":"Your +Warlord+ model gains !Feel No Pain 4+!."
+            "name": "Supa-Cyborx",
+            "cost": 40,
+            "text": "Your +Warlord+ model gains !Feel No Pain 4+!."
         }
-    ]
+    ],
+    "art": true
 }

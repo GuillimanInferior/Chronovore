@@ -1,19 +1,22 @@
-{    
+{
     "name": "Dreadnaught Ballisticus",
-    "move":8,
+    "move": 8,
     "tough": 10,
     "save": 2,
-    "hp":12,
+    "hp": 12,
     "lead": 6,
     "oc": 4,
-    "base":90,
+    "base": 90,
     "keywords": [
         "Vehicle"
     ],
-    "core_rules": ["Deadly Demise D3"],
-    "unit_rules": [{
-            "name":"Ballisticus Strike",
-            "text":"This model may re-roll the Hit roll against targets above half strength"
+    "core_rules": [
+        "Deadly Demise D3"
+    ],
+    "unit_rules": [
+        {
+            "name": "Ballisticus Strike",
+            "text": "This model may re-roll the Hit roll against targets above half strength"
         }
     ],
     "range_weapons": [
@@ -24,13 +27,14 @@
     "melee_weapons": [
         "armored_feet"
     ],
-    "composition":[
+    "composition": [
         "1 Dreadnaught Ballisticus"
     ],
-    "default_gear":[
+    "default_gear": [
         "dreadnaught_missile_launcher",
         "twin_slugger",
         "dreadnaught_beamcannon",
         "armored_feet"
-    ]
+    ],
+    "art": true
 }

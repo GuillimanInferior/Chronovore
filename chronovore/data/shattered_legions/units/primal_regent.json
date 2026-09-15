@@ -1,13 +1,13 @@
-{    
+{
     "name": "The Primal Regent",
-    "move":8,
+    "move": 8,
     "tough": 9,
     "save": 2,
-    "hp":14,
+    "hp": 14,
     "lead": 5,
     "oc": 4,
     "invuln": 4,
-    "base":60,
+    "base": 60,
     "keywords": [
         "Monster",
         "Character",
@@ -15,16 +15,19 @@
         "Supreme Commander",
         "Primal"
     ],
-    "secondary_faction":"Legion of the Regent",
-    "core_rules": ["Leader [Infantry]", "Support [Infantry]"],
+    "secondary_faction": "Legion of the Regent",
+    "core_rules": [
+        "Leader [Infantry]",
+        "Support [Infantry]"
+    ],
     "unit_rules": [
         {
-            "name":"The Regent",
-            "text":"At the start of the Battle Round, do one of the following:\n* Add 1 to the OC of friendly units within 6\" until the end of the Battle Round\n* Target an enemy unit within 24\" with the \"Second Vow\" strategem for 0 CP.\n* Target a friendly unit within 12\" with a Strategem for 0 CP"
+            "name": "The Regent",
+            "text": "At the start of the Battle Round, do one of the following:\n* Add 1 to the OC of friendly units within 6\" until the end of the Battle Round\n* Target an enemy unit within 24\" with the \"Second Vow\" strategem for 0 CP.\n* Target a friendly unit within 12\" with a Strategem for 0 CP"
         },
         {
-            "name":"Bodyguards of the Regent",
-            "text":"While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit and not a +Leader+ or +Support+, this model has +Lone Operative+."
+            "name": "Bodyguards of the Regent",
+            "text": "While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit and not a +Leader+ or +Support+, this model has +Lone Operative+."
         }
     ],
     "range_weapons": [
@@ -34,13 +37,14 @@
         "primal_sword",
         "authority_melee"
     ],
-    "composition":[
+    "composition": [
         "1 Primal Regent"
     ],
-    "models_min":1,
-    "models_max":1,
-    "default_gear":[
+    "models_min": 1,
+    "models_max": 1,
+    "default_gear": [
         "authority_ranged",
         "primal_sword"
-    ]
+    ],
+    "art": true
 }

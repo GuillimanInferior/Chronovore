@@ -1,10 +1,10 @@
-{    
+{
     "name": "Immortals",
     "base": 32,
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 3,
-    "hp":1,
+    "hp": 1,
     "lead": 7,
     "oc": 2,
     "keywords": [
@@ -12,21 +12,23 @@
         "Frontline"
     ],
     "core_rules": [],
-    "unit_rules": [{
-            "name":"Focused Eradication",
-            "text":"This unit may re-roll Wound rolls of 1. If the attack's target is within range of an objective marker, this unit may re-roll all Wound rolls instead."
+    "unit_rules": [
+        {
+            "name": "Focused Eradication",
+            "text": "This unit may re-roll Wound rolls of 1. If the attack's target is within range of an objective marker, this unit may re-roll all Wound rolls instead."
         }
     ],
     "range_weapons": [
         "phase_blaster"
     ],
     "melee_weapons": [],
-    "composition":[
+    "composition": [
         "5-10 Immortals"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "phase_blaster"
-    ]
+    ],
+    "art": true
 }

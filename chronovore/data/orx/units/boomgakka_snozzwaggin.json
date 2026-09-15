@@ -1,13 +1,13 @@
-{    
+{
     "name": "Boomgakka Snozzwaggin",
-    "move":12,
+    "move": 12,
     "tough": 6,
     "save": 5,
-    "hp":7,
+    "hp": 7,
     "lead": 7,
     "oc": 3,
-    "base":"75x42",
-    "default_gear":[
+    "base": "75x42",
+    "default_gear": [
         "big_shoota",
         "snot_blasta",
         "spiky_weelz",
@@ -31,10 +31,13 @@
         "snot_blasta",
         "meka_speshul"
     ],
-    "melee_weapons": ["spiky_weelz"],
-    "composition":[
+    "melee_weapons": [
+        "spiky_weelz"
+    ],
+    "composition": [
         "1 Boomgakka Snozzwaggin"
     ],
-    "models_min":1,
-    "models_max":1
+    "models_min": 1,
+    "models_max": 1,
+    "art": true
 }

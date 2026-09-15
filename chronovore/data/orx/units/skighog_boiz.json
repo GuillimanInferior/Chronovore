@@ -1,41 +1,51 @@
-{    
+{
     "name": "Skighog Boiz",
-    "profiles":[
+    "profiles": [
         {
             "name": "Nob on Smashy Skig",
-            "move":  10,
+            "move": 10,
             "tough": 7,
-            "save":  4,
-            "hp":    4,
-            "lead":  7,
-            "oc":    2,
-            "base":  "90x52",
-            "default_gear":[
+            "save": 4,
+            "hp": 4,
+            "lead": 7,
+            "oc": 2,
+            "base": "90x52",
+            "default_gear": [
                 "slugga",
                 "yuge_choppa",
                 "skighog_teef"
             ],
-            "range_weapons":["slugga"],
-            "melee_weapons":["yuge_choppa", "skighog_teef"],
-            "qty":1
+            "range_weapons": [
+                "slugga"
+            ],
+            "melee_weapons": [
+                "yuge_choppa",
+                "skighog_teef"
+            ],
+            "qty": 1
         },
         {
             "name": "Skighog Boyz",
-            "move":  10,
+            "move": 10,
             "tough": 7,
-            "save":  4,
-            "hp":    3,
-            "lead":  7,
-            "oc":    2,
-            "base":  "75x42",
-            "default_gear":[
+            "save": 4,
+            "hp": 3,
+            "lead": 7,
+            "oc": 2,
+            "base": "75x42",
+            "default_gear": [
                 "saddlegit_gunz",
                 "stikka_range",
                 "skighog_teef"
             ],
-            "range_weapons":["saddlegit_gunz", "stikka_range"],
-            "melee_weapons":["skighog_teef"],
-            "qty":3
+            "range_weapons": [
+                "saddlegit_gunz",
+                "stikka_range"
+            ],
+            "melee_weapons": [
+                "skighog_teef"
+            ],
+            "qty": 3
         }
     ],
     "keywords": [
@@ -43,10 +53,13 @@
         "Grenades",
         "Beast Snagga"
     ],
-    "core_rules": ["Feel No Pain 5+"],
-    "unit_rules": [{
-            "name":"Wild Ride",
-            "text":"This unit may ignore any or all modifiers to its Move trait and to its Advance and Charge rolls."
+    "core_rules": [
+        "Feel No Pain 5+"
+    ],
+    "unit_rules": [
+        {
+            "name": "Wild Ride",
+            "text": "This unit may ignore any or all modifiers to its Move trait and to its Advance and Charge rolls."
         }
     ],
     "range_weapons": [
@@ -59,11 +72,12 @@
         "stikka_melee",
         "skighog_teef"
     ],
-    "composition":[
+    "composition": [
         "1-2 Nob on Smasha Skig",
         "3-6 Skighog Boyz",
         "1 Bomb Skig token per 3 models"
     ],
-    "models_min":4,
-    "models_max":8
+    "models_min": 4,
+    "models_max": 8,
+    "art": true
 }

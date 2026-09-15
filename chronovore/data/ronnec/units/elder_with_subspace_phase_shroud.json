@@ -1,11 +1,11 @@
-{    
+{
     "name": "Elder",
     "subtitle": "with Blade and Tachyon Vambrace",
     "base": 40,
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 2,
-    "hp":6,
+    "hp": 6,
     "lead": 6,
     "oc": 1,
     "invuln": 4,
@@ -14,17 +14,24 @@
         "Character",
         "Elder"
     ],
-    "core_rules": ["Leader [Frontline]"],
-    "unit_rules":[],
-    "range_weapons": ["tachyon_vambrace"],
-    "melee_weapons": ["elders_blade"],
+    "core_rules": [
+        "Leader [Frontline]"
+    ],
+    "unit_rules": [],
+    "range_weapons": [
+        "tachyon_vambrace"
+    ],
+    "melee_weapons": [
+        "elders_blade"
+    ],
     "wargear": [],
-    "composition":[
+    "composition": [
         "1 Overlord"
     ],
-    "default_gear":[
+    "default_gear": [
         "tachyon_vambrace",
         "elders_blade",
         "subspace_phase_shroud"
-    ]
+    ],
+    "art": true
 }

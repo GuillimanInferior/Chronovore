@@ -1,13 +1,12 @@
-{    
+{
     "name": "Landspeeder",
-    "base":60,
-    "move":14,
+    "base": 90,
+    "move": 14,
     "tough": 7,
     "save": 3,
-    "hp":6,
+    "hp": 6,
     "lead": 6,
     "oc": 2,
-    "base":90,
     "keywords": [
         "Vehicle",
         "Fly"
@@ -18,8 +17,8 @@
     ],
     "unit_rules": [
         {
-            "name":"Target Sighted",
-            "text":"At the start of the Battle Round, select one enemy unit visible to this model. Until the end of the Battle Round, +[Blast]+ weapons used against the selected model have +1 to the Hit roll."
+            "name": "Target Sighted",
+            "text": "At the start of the Battle Round, select one enemy unit visible to this model. Until the end of the Battle Round, +[Blast]+ weapons used against the selected model have +1 to the Hit roll."
         }
     ],
     "range_weapons": [
@@ -29,12 +28,13 @@
     "melee_weapons": [
         "armored_hull"
     ],
-    "composition":[
+    "composition": [
         "1 Storm Speeder Thunderstrike"
     ],
-    "default_gear":[
+    "default_gear": [
         "heavy_slugger",
         "multi_melter",
         "armored_hull"
-    ]
+    ],
+    "art": true
 }
