@@ -46,6 +46,13 @@ app.wsgi_app                                = ProxyFix(app.wsgi_app, x_for=app.c
 #===DEBUGGING===
 app.config["DEBUG_POINTS"]                  =bool(int(environ.get("DEBUG_POINTS", 1)))
 
+
+#Iterate through all units; this will precompute and save points
+from helpers.get import get_factions
+for faction in get_factions():
+    for unit in faction.unit_listing:
+        pass
+
 @app.before_request
 def before_request():
 
