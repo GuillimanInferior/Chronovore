@@ -1,15 +1,14 @@
-{    
+{
     "name": "Captain",
     "subtitle": "with Jet Pack",
     "base": 40,
-    "move":12,
+    "move": 12,
     "tough": 4,
     "save": 3,
     "invuln": 4,
-    "hp":5,
+    "hp": 5,
     "lead": 6,
     "oc": 1,
-    "base": 40,
     "keywords": [
         "Infantry",
         "Character",
@@ -18,15 +17,18 @@
         "Fly",
         "Jet Pack"
     ],
-    "core_rules": ["Deep Strike", "Leader [Jet Pack]"],
+    "core_rules": [
+        "Deep Strike",
+        "Leader [Jet Pack]"
+    ],
     "unit_rules": [
         {
-            "name":"Rites of Battle",
-            "text":"Once per Battle Round, you may target a friendly +Captain+ model (and its attached unit) with a Strategem, even if that Strategem has already been used that Battle Round. The Strategem costs 1 CP less."
+            "name": "Rites of Battle",
+            "text": "Once per Battle Round, you may target a friendly +Captain+ model (and its attached unit) with a Strategem, even if that Strategem has already been used that Battle Round. The Strategem costs 1 CP less."
         },
         {
-            "name":"Finest Hour",
-            "text":"This ability may be activated once per battle. Until the end of the phase, this model's melee weapons have +3 Attacks and +[Devastating Wounds]+."
+            "name": "Finest Hour",
+            "text": "This ability may be activated once per battle. Until the end of the phase, this model's melee weapons have +3 Attacks and +[Devastating Wounds]+."
         }
     ],
     "range_weapons": [
@@ -37,12 +39,13 @@
     "melee_weapons": [
         "relic_power_sword"
     ],
-    "composition":[
+    "composition": [
         "1 Captain with Jet Pack"
     ],
-    "default_gear":[
+    "default_gear": [
         "slug_pistol",
         "relic_slug_rifle",
         "relic_power_sword"
-    ]
+    ],
+    "art": true
 }

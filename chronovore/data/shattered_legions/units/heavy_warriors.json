@@ -1,23 +1,24 @@
-{    
+{
     "name": "Heavy Warriors",
     "base": 40,
-    "move":5,
+    "move": 5,
     "tough": 6,
     "save": 3,
-    "hp":3,
+    "hp": 3,
     "lead": 6,
     "oc": 2,
-    "base": 40,
     "keywords": [
         "Infantry",
         "Grenades",
         "Heavy"
     ],
-    "core_rules": ["Secure Objectives"],
+    "core_rules": [
+        "Secure Objectives"
+    ],
     "unit_rules": [
         {
-            "name":"Stoic Resiliance",
-            "text":"While within range of an objective marker you control, models in this unit have +1 to Saving rolls made against 1-Damage attacks."
+            "name": "Stoic Resiliance",
+            "text": "While within range of an objective marker you control, models in this unit have +1 to Saving rolls made against 1-Damage attacks."
         }
     ],
     "range_weapons": [
@@ -26,14 +27,15 @@
     "melee_weapons": [
         "close_combat_weapon"
     ],
-    "composition":[
+    "composition": [
         "1 Heavy Sergeant",
         "4-9 Heavy Warriors"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "heavy_slug_rifle",
         "close_combat_weapon"
-    ]
+    ],
+    "art": true
 }

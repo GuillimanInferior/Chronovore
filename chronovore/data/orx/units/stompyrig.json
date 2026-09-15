@@ -1,14 +1,14 @@
-{    
+{
     "name": "Stompyrig",
-    "move":8,
+    "move": 8,
     "tough": 8,
     "save": 3,
-    "invuln":5,
-    "hp":11,
+    "invuln": 5,
+    "hp": 11,
     "lead": 7,
     "oc": 3,
-    "base":90,
-    "default_gear":[
+    "base": 90,
+    "default_gear": [
         "blitzkannon",
         "eavy_rokkitz",
         "stompy_feet"
@@ -26,9 +26,10 @@
     "melee_weapons": [
         "stompy_feet"
     ],
-    "composition":[
+    "composition": [
         "1 Stompyrig"
     ],
-    "models_min":1,
-    "models_max":1
+    "models_min": 1,
+    "models_max": 1,
+    "art": true
 }

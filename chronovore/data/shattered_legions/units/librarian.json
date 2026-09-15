@@ -1,13 +1,13 @@
-{    
+{
     "name": "Librarian",
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 2,
-    "hp":3,
+    "hp": 3,
     "lead": 6,
     "psyker": 1,
     "oc": 1,
-    "base":40,
+    "base": 40,
     "keywords": [
         "Infantry",
         "Character",
@@ -20,9 +20,10 @@
         "Deep Strike",
         "Leader [Tactical]"
     ],
-    "unit_rules": [{
-            "name":"Psychic Hood",
-            "text":"While leading a unit, models in the unit have !Feel No Pain 4+! against +Psychic+ damage."
+    "unit_rules": [
+        {
+            "name": "Psychic Hood",
+            "text": "While leading a unit, models in the unit have !Feel No Pain 4+! against +Psychic+ damage."
         }
     ],
     "range_weapons": [
@@ -31,11 +32,12 @@
     "psychic_weapons": [
         "arcane_gravstaff"
     ],
-    "composition":[
+    "composition": [
         "1 Librarian"
     ],
-    "default_gear":[
+    "default_gear": [
         "slug_pistol",
         "arcane_gravstaff"
-    ]
+    ],
+    "art": true
 }

@@ -1,20 +1,21 @@
-{    
+{
     "name": "Shattered Legionaries",
     "base": 32,
-    "move":6,
+    "move": 6,
     "tough": 4,
     "save": 3,
-    "hp":2,
+    "hp": 2,
     "lead": 6,
     "oc": 2,
-    "base":32,
     "keywords": [
         "Infantry",
         "Frontline",
         "Grenades",
         "Tactical"
     ],
-    "core_rules": ["Secure Objectives"],
+    "core_rules": [
+        "Secure Objectives"
+    ],
     "unit_rules": [],
     "range_weapons": [
         "slug_pistol",
@@ -25,20 +26,21 @@
         "close_combat_weapon",
         "lightning_fist"
     ],
-    "composition":[
+    "composition": [
         "1 Sergeant",
         "4-9 Warriors"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "slug_pistol",
         "slug_rifle",
         "close_combat_weapon"
     ],
-    "replacement_gear":{
-        "Sergeant's Close Combat Knives":[
+    "replacement_gear": {
+        "Sergeant's Close Combat Knives": [
             "lightning_fist"
         ]
-    }
+    },
+    "art": true
 }

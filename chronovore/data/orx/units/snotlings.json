@@ -1,13 +1,13 @@
-{    
+{
     "name": "Snotlings",
-    "move":6,
+    "move": 6,
     "tough": 2,
     "save": 7,
-    "hp":1,
+    "hp": 1,
     "lead": 8,
     "oc": 2,
-    "base":25,
-    "default_gear":[
+    "base": 25,
+    "default_gear": [
         "snot_blasta",
         "snotling_fists"
     ],
@@ -17,17 +17,20 @@
     "core_rules": [],
     "unit_rules": [
         {
-            "name":"Thieving Scroungers",
-            "text":"At the start of the Battle Round, if this unit controls an Objective and is not Battle-Shocked, roll d6. On a result of 4+, gain 1 CP."
+            "name": "Thieving Scroungers",
+            "text": "At the start of the Battle Round, if this unit controls an Objective and is not Battle-Shocked, roll d6. On a result of 4+, gain 1 CP."
         }
     ],
     "range_weapons": [
         "snot_blasta"
     ],
-    "melee_weapons": ["snotling_fists"],
-    "composition":[
+    "melee_weapons": [
+        "snotling_fists"
+    ],
+    "composition": [
         "10-20 Snotlings"
     ],
-    "models_min":10,
-    "models_max":20
+    "models_min": 10,
+    "models_max": 20,
+    "art": true
 }

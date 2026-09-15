@@ -1,11 +1,11 @@
-{    
+{
     "name": "Assault Warriors",
     "base": 32,
-    "ppm":15,
-    "move":6,
+    "ppm": 15,
+    "move": 6,
     "tough": 4,
     "save": 3,
-    "hp":2,
+    "hp": 2,
     "lead": 6,
     "oc": 2,
     "keywords": [
@@ -15,9 +15,10 @@
         "Tactical"
     ],
     "core_rules": [],
-    "unit_rules": [{
-            "name":"Shock Assault",
-            "text":"Reroll melee wound rolls of 1. If the targeted enemy is within range of an objective marker, re-roll all wound rolls instead."
+    "unit_rules": [
+        {
+            "name": "Shock Assault",
+            "text": "Reroll melee wound rolls of 1. If the targeted enemy is within range of an objective marker, re-roll all wound rolls instead."
         }
     ],
     "range_weapons": [
@@ -29,23 +30,24 @@
         "chainblade",
         "lightning_fist"
     ],
-    "composition":[
+    "composition": [
         "1 Assault Sergeant",
         "4-9 Assault Warriors"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "heavy_slug_pistol",
         "chainblade"
     ],
-    "replacement_gear":{
-        "Assault Sergeant's Heavy Slug Pistol":[
+    "replacement_gear": {
+        "Assault Sergeant's Heavy Slug Pistol": [
             "flamethrower_pistol",
             "plasma_pistol"
         ],
-        "Assault Sergeant's Chainblade":[
+        "Assault Sergeant's Chainblade": [
             "lightning_fist"
         ]
-    }
+    },
+    "art": true
 }

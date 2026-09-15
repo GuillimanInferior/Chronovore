@@ -1,10 +1,10 @@
-{    
+{
     "name": "Sniper Squad",
     "base": 40,
-    "move":6,
+    "move": 6,
     "tough": 4,
     "save": 3,
-    "hp":2,
+    "hp": 2,
     "lead": 6,
     "oc": 1,
     "keywords": [
@@ -12,11 +12,14 @@
         "Grenades",
         "Light"
     ],
-    "core_rules": ["Infiltrators", "Stealth"],
+    "core_rules": [
+        "Infiltrators",
+        "Stealth"
+    ],
     "unit_rules": [
         {
-            "name":"Marked Target",
-            "text":"Whenever this unit Remains Stationary, until the end of the Battle Round, ranged weapons equipped by this unit have +[Devastating Wounds]+."
+            "name": "Marked Target",
+            "text": "Whenever this unit Remains Stationary, until the end of the Battle Round, ranged weapons equipped by this unit have +[Devastating Wounds]+."
         }
     ],
     "range_weapons": [
@@ -27,18 +30,21 @@
     "melee_weapons": [
         "close_combat_weapon"
     ],
-    "composition":[
+    "composition": [
         "1 Sniper Sergeant",
         "2 Snipers"
     ],
     "models_min": 3,
     "models_max": 3,
-    "default_gear":[
+    "default_gear": [
         "slug_pistol",
         "slug_sniper_rifle",
         "close_combat_weapon"
     ],
     "replacement_gear": {
-        "Sniper Sergeant's Slug Sniper Rifle": ["slug_carbine"]
-    }
+        "Sniper Sergeant's Slug Sniper Rifle": [
+            "slug_carbine"
+        ]
+    },
+    "art": true
 }

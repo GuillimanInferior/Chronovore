@@ -1,31 +1,35 @@
-{    
+{
     "name": "Assassins",
     "base": 32,
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 3,
-    "hp":1,
+    "hp": 1,
     "lead": 7,
     "oc": 1,
     "keywords": [
         "Infantry"
     ],
-    "core_rules": ["Deep Strike"],
-    "unit_rules": [{
-            "name":"Hyperspace Hunters",
-            "text":"Once per Battle Round, when an enemy unit is set up on the Battlefield from Reserves within 18\" and visible to this unit, this unit may shoot at that unit, provided that it is an eligible target."
+    "core_rules": [
+        "Deep Strike"
+    ],
+    "unit_rules": [
+        {
+            "name": "Hyperspace Hunters",
+            "text": "Once per Battle Round, when an enemy unit is set up on the Battlefield from Reserves within 18\" and visible to this unit, this unit may shoot at that unit, provided that it is an eligible target."
         }
     ],
     "range_weapons": [
         "long_range_disintegrator"
     ],
     "melee_weapons": [],
-    "composition":[
+    "composition": [
         "5-10 Assassins"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "long_range_disintegrator"
-    ]
+    ],
+    "art": true
 }

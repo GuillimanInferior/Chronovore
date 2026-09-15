@@ -1,10 +1,10 @@
-{    
+{
     "name": "Doomflier Gunship",
-    "base":"120x92",
-    "move":"20+",
+    "base": "120x92",
+    "move": "20+",
     "tough": 9,
     "save": 3,
-    "hp":12,
+    "hp": 12,
     "lead": 7,
     "oc": 0,
     "keywords": [
@@ -12,17 +12,24 @@
         "Fly",
         "Aircraft"
     ],
-    "core_rules": ["Deadly Demise D3"],
+    "core_rules": [
+        "Deadly Demise D3"
+    ],
     "unit_rules": [],
     "range_weapons": [
         "heavy_death_ray",
         "twin_tesla_railgun"
     ],
-    "melee_weapons": ["armored_bulk"],
-    "composition":[
+    "melee_weapons": [
+        "armored_bulk"
+    ],
+    "composition": [
         "1 Doom Gunship"
     ],
-    "default_gear":[
-        "heavy_death_ray", "twin_tesla_railgun", "armored_bulk"
-    ]
+    "default_gear": [
+        "heavy_death_ray",
+        "twin_tesla_railgun",
+        "armored_bulk"
+    ],
+    "art": true
 }

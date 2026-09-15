@@ -1,13 +1,13 @@
-{    
+{
     "name": "The Primal Duellist",
-    "move":8,
+    "move": 8,
     "tough": 9,
     "save": 2,
-    "hp":10,
+    "hp": 10,
     "lead": 5,
     "oc": 4,
     "invuln": 3,
-    "base":60,
+    "base": 60,
     "keywords": [
         "Monster",
         "Character",
@@ -15,16 +15,19 @@
         "Supreme Commander",
         "Primal"
     ],
-    "secondary_faction":"Legion of the Duellist",
-    "core_rules": ["Deep Strike", "Fights First"],
+    "secondary_faction": "Legion of the Duellist",
+    "core_rules": [
+        "Deep Strike",
+        "Fights First"
+    ],
     "unit_rules": [
         {
-            "name":"The Duellist",
-            "text":"At the start of the Battle Round, select one of the following:\n* If this unit is not within Melee Distance of an enemy, remove it from the Battlefield and place it into Reserves.\n* Until the end of the Battle Round: friendly +Shattered Legions+ units within 6\" have !Feel No Pain 4+! against mortal damage.\n* When your opponent targets their unit within 12\" with a Strategem, gain 1 CP and the targeted unit must take a Battle-Shock test before resolving the Strategem. If failed, the unit is Battle-Shocked and the Strategem has no effect.\n"
+            "name": "The Duellist",
+            "text": "At the start of the Battle Round, select one of the following:\n* If this unit is not within Melee Distance of an enemy, remove it from the Battlefield and place it into Reserves.\n* Until the end of the Battle Round: friendly +Shattered Legions+ units within 6\" have !Feel No Pain 4+! against mortal damage.\n* When your opponent targets their unit within 12\" with a Strategem, gain 1 CP and the targeted unit must take a Battle-Shock test before resolving the Strategem. If failed, the unit is Battle-Shocked and the Strategem has no effect.\n"
         },
         {
-            "name":"Bodyguards of the Duellist",
-            "text":"While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit, this model has +Lone Operative+."
+            "name": "Bodyguards of the Duellist",
+            "text": "While within 3\" of a friendly +Shattered Legions+ +Infantry+ unit, this model has +Lone Operative+."
         }
     ],
     "range_weapons": [
@@ -33,17 +36,18 @@
     "melee_weapons": [
         "loyalty"
     ],
-    "wargear":[
+    "wargear": [
         "primal_shield"
     ],
-    "composition":[
+    "composition": [
         "1 Primal Duellist"
     ],
-    "models_min":1,
-    "models_max":1,
-    "default_gear":[
+    "models_min": 1,
+    "models_max": 1,
+    "default_gear": [
         "illumination",
         "loyalty",
         "primal_shield"
-    ]
+    ],
+    "art": true
 }

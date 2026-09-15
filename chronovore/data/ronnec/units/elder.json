@@ -1,11 +1,11 @@
-{    
+{
     "name": "Elder",
     "subtitle": "with Scythe and Reassembly Orb",
     "base": 40,
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 2,
-    "hp":6,
+    "hp": 6,
     "lead": 6,
     "oc": 1,
     "invuln": 4,
@@ -14,21 +14,28 @@
         "Character",
         "Elder"
     ],
-    "core_rules": ["Leader [Frontline]"],
+    "core_rules": [
+        "Leader [Frontline]"
+    ],
     "unit_rules": [
         {
-        "name": "Improbable Resilience",
-        "text": "Subtract 1 from the Damage of all attacks made against this model (to a minimum of 1)."
+            "name": "Improbable Resilience",
+            "text": "Subtract 1 from the Damage of all attacks made against this model (to a minimum of 1)."
         }
     ],
     "range_weapons": [],
-    "melee_weapons": ["phase_scythe"],
-    "wargear": ["reassembly_orb"],
-    "composition":[
+    "melee_weapons": [
+        "phase_scythe"
+    ],
+    "wargear": [
+        "reassembly_orb"
+    ],
+    "composition": [
         "1 Overlord"
     ],
-    "default_gear":[
+    "default_gear": [
         "phase_scythe",
         "reassembly_orb"
-    ]
+    ],
+    "art": true
 }

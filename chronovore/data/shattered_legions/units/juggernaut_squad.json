@@ -1,19 +1,21 @@
-{    
+{
     "name": "Juggernaut Squad",
     "base": 40,
-    "move":6,
+    "move": 6,
     "tough": 5,
     "save": 2,
-    "hp":4,
+    "hp": 4,
     "lead": 6,
     "oc": 1,
-    "invuln":5,
+    "invuln": 5,
     "keywords": [
         "Infantry",
         "Grenades",
         "Juggernaut"
     ],
-    "core_rules": ["Deep Strike"],
+    "core_rules": [
+        "Deep Strike"
+    ],
     "unit_rules": [],
     "range_weapons": [
         "dual_heavy_slug_pistol"
@@ -22,23 +24,26 @@
         "power_sword",
         "lightning_fist"
     ],
-    "wargear":[
+    "wargear": [
         "teleport_beacon"
     ],
-    "composition":[
+    "composition": [
         "1 Juggernaut Sergeant",
         "4-9 Juggernauts"
     ],
     "models_min": 5,
     "models_max": 10,
-    "default_gear":[
+    "default_gear": [
         "dual_heavy_slug_pistol",
         "lightning_fist"
     ],
-    "replacement_gear":{
-        "Juggernaut Sergeant's Lightning Fist":[
+    "replacement_gear": {
+        "Juggernaut Sergeant's Lightning Fist": [
             "power_sword"
         ],
-        "Every 5th model's Dual Heavy Slug Pistol":["heavy_slug_rifle"]
-    }
+        "Every 5th model's Dual Heavy Slug Pistol": [
+            "heavy_slug_rifle"
+        ]
+    },
+    "art": true
 }

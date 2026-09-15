@@ -1,10 +1,10 @@
-{    
+{
     "name": "Ancient Veteran",
     "base": 40,
-    "move":6,
+    "move": 6,
     "tough": 4,
     "save": 3,
-    "hp":3,
+    "hp": 3,
     "lead": 6,
     "oc": 1,
     "keywords": [
@@ -14,10 +14,13 @@
         "Ancient",
         "Tactical"
     ],
-    "core_rules": ["Leader [Tactical]"],
-    "unit_rules": [{
-            "name":"Inspire to Hate",
-            "text":"While leading a unit, all models in the unit have +1 to their Objective Control."
+    "core_rules": [
+        "Leader [Tactical]"
+    ],
+    "unit_rules": [
+        {
+            "name": "Inspire to Hate",
+            "text": "While leading a unit, all models in the unit have +1 to their Objective Control."
         }
     ],
     "range_weapons": [
@@ -27,14 +30,15 @@
     "melee_weapons": [
         "power_sword"
     ],
-    "composition":[
+    "composition": [
         "1 Anicent"
     ],
     "models_min": 1,
     "models_max": 1,
-    "default_gear":[
+    "default_gear": [
         "slug_pistol",
         "slug_rifle",
         "power_sword"
-    ]
+    ],
+    "art": true
 }

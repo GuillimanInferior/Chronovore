@@ -2,10 +2,10 @@
     "name": "Sons of the Duellist",
     "color": "00401f",
     "color_dark": "33664c",
-    "secondary_faction":"Legion of the Duellist",
+    "secondary_faction": "Legion of the Duellist",
     "banned_keywords": [],
     "lore": "The Primal Duellist is perhaps the second-greatest swordsman to ever exist, after only the Shattered King himself. His clashes with enemies have become tales of legend, holding off larger and stronger foes through sheer wit and skill. His Legion likewise excels at handling the worst enemies to be found in the realms, using superior weapons, specialized equipment, and cunning tactics to achieve victory.",
-    "rules": [ 
+    "rules": [
         {
             "name": "Resilience of the Duellist",
             "lore": "The Primal Duellist and his sons are known for their unshakable resolve, maintaining the strictest of discipline in battle even while enduring the harshest of conditions and the unrelenting assaults of the enemy. Indeed, enemy attacks seem only to strengthen them.",
@@ -37,36 +37,37 @@
     ],
     "spells": [
         {
-            "name":"Mind Worm",
-            "difficulty":7,
-            "effect":"Select one enemy unit within 18\". It suffers 1 Mortal Damage and must take a Battle-Shock test."
+            "name": "Mind Worm",
+            "difficulty": 7,
+            "effect": "Select one enemy unit within 18\". It suffers 1 Mortal Damage and must take a Battle-Shock test."
         },
         {
-            "name":"Righteous Motivation",
-            "difficulty":8,
-            "effect":"Select one friendly +Legion of the Duellist+ unit within 12\". Until the end of the Battle-Round, the selected unit can re-roll the Hit roll and the Wound Roll for its melee attacks."
+            "name": "Righteous Motivation",
+            "difficulty": 8,
+            "effect": "Select one friendly +Legion of the Duellist+ unit within 12\". Until the end of the Battle-Round, the selected unit can re-roll the Hit roll and the Wound Roll for its melee attacks."
         },
         {
-            "name":"Deepening Fear",
-            "difficulty":8,
-            "effect":"Select one enemy unit within 24\". Until the end of the Battle Round, the selected unit:\n\n* Has its =flag= Leadership worsened by 1\n* Has an =arrows-to-circle= Objective Control trait of 0\n* Cannot use +Secure Objectives+, "
+            "name": "Deepening Fear",
+            "difficulty": 8,
+            "effect": "Select one enemy unit within 24\". Until the end of the Battle Round, the selected unit:\n\n* Has its =flag= Leadership worsened by 1\n* Has an =arrows-to-circle= Objective Control trait of 0\n* Cannot use +Secure Objectives+, "
         }
     ],
-    "upgrades":[
+    "upgrades": [
         {
-            "name":"Scion of the Duellist",
-            "cost":10,
-            "text":"At the start of the battle, gain 1 CP."
+            "name": "Scion of the Duellist",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
         },
         {
-            "name":"Silent Command",
-            "cost":20,
-            "text":"Your +Warlord+ has !Feel No Pain 5+! while it is Battle-Shocked."
+            "name": "Silent Command",
+            "cost": 20,
+            "text": "Your +Warlord+ has !Feel No Pain 5+! while it is Battle-Shocked."
         },
         {
-            "name":"Grim Execution",
-            "cost":40,
-            "text":"Your +Shattered Legions+ +Infantry+ units have +1\" to their =person-running= Movement traits while they are Battle-Shocked."
+            "name": "Grim Execution",
+            "cost": 40,
+            "text": "Your +Shattered Legions+ +Infantry+ units have +1\" to their =person-running= Movement traits while they are Battle-Shocked."
         }
-    ]
+    ],
+    "art": true
 }

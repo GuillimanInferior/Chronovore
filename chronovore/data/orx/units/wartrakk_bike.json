@@ -1,13 +1,13 @@
-{    
+{
     "name": "Wartrakk Bike",
-    "move":12,
+    "move": 12,
     "tough": 6,
     "save": 5,
-    "hp":7,
+    "hp": 7,
     "lead": 7,
     "oc": 3,
-    "base":"75x42",
-    "default_gear":[
+    "base": "75x42",
+    "default_gear": [
         "kustum_shooty",
         "rokkitz",
         "choppas"
@@ -21,10 +21,13 @@
         "kustum_shooty",
         "rokkitz"
     ],
-    "melee_weapons": ["choppas"],
-    "composition":[
+    "melee_weapons": [
+        "choppas"
+    ],
+    "composition": [
         "1 Wartrakk Bike"
     ],
-    "models_min":1,
-    "models_max":1
+    "models_min": 1,
+    "models_max": 1,
+    "art": true
 }

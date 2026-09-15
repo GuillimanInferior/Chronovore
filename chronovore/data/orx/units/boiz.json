@@ -1,39 +1,46 @@
-{    
+{
     "name": "Boiz",
-    "profiles":[
+    "profiles": [
         {
             "name": "Boss Nob",
-            "move":6,
+            "move": 6,
             "tough": 5,
             "save": 5,
-            "hp":2,
+            "hp": 2,
             "lead": 7,
             "oc": 2,
-            "base":32,
-            "default_gear":[
+            "base": 32,
+            "default_gear": [
                 "slugga",
                 "big_choppa"
             ],
-            "range_weapons":["slugga"],
-            "melee_weapons":["big_choppa"],
-            "qty":1
+            "range_weapons": [
+                "slugga"
+            ],
+            "melee_weapons": [
+                "big_choppa"
+            ],
+            "qty": 1
         },
         {
             "name": "Boi",
-            "move":6,
+            "move": 6,
             "tough": 5,
             "save": 5,
-            "hp":1,
+            "hp": 1,
             "lead": 7,
             "oc": 2,
-            "base":32,
+            "base": 32,
             "default_gear": [
                 "slugga",
                 "choppa"
             ],
-            "range_weapons":[],
-            "melee_weapons":["slugga","choppa"],
-            "qty":9
+            "range_weapons": [],
+            "melee_weapons": [
+                "slugga",
+                "choppa"
+            ],
+            "qty": 9
         }
     ],
     "keywords": [
@@ -42,10 +49,13 @@
         "Frontline",
         "Beast Wrangla"
     ],
-    "core_rules": ["Secure Objectives"],
-    "unit_rules": [{
-            "name":"Bodygardz",
-            "text":"This unit may have two +Leader+ units attached, as long as one of them is a +Warboss+. When this unit is destroyed the two +Leader+ units become separate units again."
+    "core_rules": [
+        "Secure Objectives"
+    ],
+    "unit_rules": [
+        {
+            "name": "Bodygardz",
+            "text": "This unit may have two +Leader+ units attached, as long as one of them is a +Warboss+. When this unit is destroyed the two +Leader+ units become separate units again."
         }
     ],
     "range_weapons": [
@@ -57,15 +67,16 @@
         "big_choppa",
         "close_combat_weapon"
     ],
-    "composition":[
+    "composition": [
         "1-2 Boss Nobz",
         "10-20 Boiz"
     ],
-    "models_min":11,
-    "models_max":22,
-    "replacement_gear":{
-        "Every 10th Boi's Slugga and Choppa":[
+    "models_min": 11,
+    "models_max": 22,
+    "replacement_gear": {
+        "Every 10th Boi's Slugga and Choppa": [
             "rokkit"
         ]
-    }
+    },
+    "art": true
 }

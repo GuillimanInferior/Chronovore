@@ -3,14 +3,14 @@
     "rules": [
         {
             "name": "Deepened Fear",
-            "lore":"As the Hunger pour forth from the Void Rifts, their feral psychic presence overwhelms the minds of their opponents.",
+            "lore": "As the Hunger pour forth from the Void Rifts, their feral psychic presence overwhelms the minds of their opponents.",
             "text": "Enemy units have -1 to the Battle-Shock tests taken due to the Shadow in the Void."
         }
     ],
-    "spells":[
+    "spells": [
         {
             "name": "Void Shade",
-            "difficulty":6,
+            "difficulty": 6,
             "effect": "Select an enemy unit within 18\". It takes a Battle-Shock test."
         }
     ],
@@ -37,21 +37,22 @@
             "effect": "Place the unit into Reserves."
         }
     ],
-    "upgrades":[
+    "upgrades": [
         {
-            "name":"Perfect Adaptation",
-            "cost":10,
-            "text":"Once per Battle Round, your +Warlord+ may reroll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll, or one Saving roll."
+            "name": "Perfect Adaptation",
+            "cost": 10,
+            "text": "Once per Battle Round, your +Warlord+ may reroll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll, or one Saving roll."
         },
         {
-            "name":"Malevolent Cunning",
-            "cost":20,
-            "text":"After both players have deployed their armies, select a friendly +Hunger+ unit and redeploy it. It may be moved in or out of Strategic Reserves."
+            "name": "Malevolent Cunning",
+            "cost": 20,
+            "text": "After both players have deployed their armies, select a friendly +Hunger+ unit and redeploy it. It may be moved in or out of Strategic Reserves."
         },
         {
-            "name":"Synaptic Biology",
-            "cost":40,
-            "text":"Friendly +Hunger+ units within 8\" of a +Hive Will+ unit are also within Hive Will range."
+            "name": "Synaptic Biology",
+            "cost": 40,
+            "text": "Friendly +Hunger+ units within 8\" of a +Hive Will+ unit are also within Hive Will range."
         }
-    ]
+    ],
+    "art": true
 }

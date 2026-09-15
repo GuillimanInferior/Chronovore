@@ -1,15 +1,15 @@
-{    
+{
     "name": "Librarian",
     "subtitle": "in Juggernaut armor",
-    "move":5,
+    "move": 5,
     "tough": 5,
     "save": 2,
-    "hp":4,
+    "hp": 4,
     "lead": 6,
     "psyker": 1,
     "oc": 1,
     "invuln": 4,
-    "base":40,
+    "base": 40,
     "keywords": [
         "Infantry",
         "Character",
@@ -21,27 +21,29 @@
         "Deep Strike",
         "Leader [Juggernaut]"
     ],
-    "unit_rules": [{
-            "name":"Psychic Hood",
-            "text":"While leading a unit, models in the unit have !Feel No Pain 4+! against +Psychic+ damage."
+    "unit_rules": [
+        {
+            "name": "Psychic Hood",
+            "text": "While leading a unit, models in the unit have !Feel No Pain 4+! against +Psychic+ damage."
         },
         {
-            "name":"Veil of Time",
-            "text":"While leading a unit, models in the unit have +[Sustained Hits 1]+ on all their equipped weapons."
+            "name": "Veil of Time",
+            "text": "While leading a unit, models in the unit have +[Sustained Hits 1]+ on all their equipped weapons."
         }
     ],
     "range_weapons": [
         "dual_heavy_slug_pistol"
     ],
     "melee_weapons": [],
-    "psychic_weapons":[
+    "psychic_weapons": [
         "arcane_gravstaff"
     ],
-    "composition":[
+    "composition": [
         "1 Juggernaut Librarian"
     ],
-    "default_gear":[
+    "default_gear": [
         "dual_heavy_slug_pistol",
         "arcane_gravstaff"
-    ]
+    ],
+    "art": true
 }

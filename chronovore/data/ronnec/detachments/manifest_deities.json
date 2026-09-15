@@ -3,7 +3,7 @@
     "color": "015971",
     "color_dark": "347a8d",
     "lore": "Given enough time and energy, the Void manifests all beliefs into reality. None have benefited from this phenomenon so well as the Ronnec, whose ancient pagan gods stepped forth from the Rifts, ready for battle.",
-    "rules": [ 
+    "rules": [
         {
             "name": "Void Deities",
             "lore": "The terrifying deities of the Ronnec stride across the battlefield, unencumbered by gravity and unbothered by cannon fire. Where the go, raw destruction follows, and fear is left in their wake.",
@@ -33,21 +33,21 @@
             "effect": "Until the end of the Battle Round, attacks made against the target unit can re-roll Hit and Wound rolls of 1."
         }
     ],
-    "upgrades":[
+    "upgrades": [
         {
-            "name":"Vengeance of the Void",
-            "cost":10,
-            "text":"At the start of the battle, select a friendly +Pagan Deity+ unit. When it dies, the unit that killed it suffers d3 Mortal Damage."
+            "name": "Vengeance of the Void",
+            "cost": 10,
+            "text": "At the start of the battle, select a friendly +Pagan Deity+ unit. When it dies, the unit that killed it suffers d3 Mortal Damage."
         },
         {
-            "name":"Void Infusion",
-            "cost":20,
-            "text":"The range for \"Void Deities\" rule and the three detachment Strategems is increased from 6\" to 7\"."
+            "name": "Void Infusion",
+            "cost": 20,
+            "text": "The range for \"Void Deities\" rule and the three detachment Strategems is increased from 6\" to 7\"."
         },
         {
-            "name":"Sacrifice for the Gods",
-            "cost":40,
-            "strategem":{
+            "name": "Sacrifice for the Gods",
+            "cost": 40,
+            "strategem": {
                 "name": "Void Sacrifice",
                 "cost": 2,
                 "when": "After a friendly +Pagan Deity+ unit is destroyed",
@@ -55,5 +55,6 @@
                 "effect": "Remove the selected models from the Battlefield; they are destroyed. Place the destroyed +Pagan Deity+ into Reserves."
             }
         }
-    ]
+    ],
+    "art": true
 }

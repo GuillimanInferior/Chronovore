@@ -1,10 +1,10 @@
-{    
+{
     "name": "Chaplain",
     "base": 40,
-    "move":6,
+    "move": 6,
     "tough": 4,
     "save": 3,
-    "hp":3,
+    "hp": 3,
     "lead": 5,
     "oc": 1,
     "invuln": 4,
@@ -14,10 +14,13 @@
         "Tactical",
         "Chaplain"
     ],
-    "core_rules": ["Leader [Tactical]"],
-    "unit_rules": [{
-            "name":"Inspire to Hate",
-            "text":"While leading a unit, melee attacks made by the combined unit have +1 to the Wound roll."
+    "core_rules": [
+        "Leader [Tactical]"
+    ],
+    "unit_rules": [
+        {
+            "name": "Inspire to Hate",
+            "text": "While leading a unit, melee attacks made by the combined unit have +1 to the Wound roll."
         }
     ],
     "range_weapons": [
@@ -26,13 +29,14 @@
     "melee_weapons": [
         "holy_mace"
     ],
-    "composition":[
+    "composition": [
         "1 Chaplain"
     ],
     "models_min": 1,
     "models_max": 1,
-    "default_gear":[
+    "default_gear": [
         "slug_pistol",
         "holy_mace"
-    ]
+    ],
+    "art": true
 }

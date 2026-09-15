@@ -1,10 +1,10 @@
-{    
+{
     "name": "Arcane Doomwalker",
     "base": 90,
-    "move":7,
+    "move": 7,
     "tough": 8,
     "save": 3,
-    "hp":12,
+    "hp": 12,
     "lead": 8,
     "oc": 4,
     "keywords": [
@@ -13,10 +13,12 @@
         "Towering",
         "Arcane"
     ],
-    "core_rules": ["Deadly Demise D3"],
+    "core_rules": [
+        "Deadly Demise D3"
+    ],
     "unit_rules": [
         {
-            "name":"Overwatch Construct",
+            "name": "Overwatch Construct",
             "text": "When targeting this unit with the Fire Overwatch strategem, this unit hits on unmodified Hit rolls of 5+."
         }
     ],
@@ -24,13 +26,16 @@
         "doomsday_cannon",
         "twin_phase_flayer"
     ],
-    "melee_weapons": ["walker_limbs"],
-    "composition":[
+    "melee_weapons": [
+        "walker_limbs"
+    ],
+    "composition": [
         "1 Arcane Doomwalker"
     ],
-    "default_gear":[
+    "default_gear": [
         "doomsday_cannon",
         "twin_phase_flayer",
         "walker_limbs"
-    ]
+    ],
+    "art": true
 }
