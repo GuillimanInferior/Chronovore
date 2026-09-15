@@ -10,8 +10,8 @@ app = Flask(
     template_folder='./templates',
     static_folder='./assets'
     )
-app.config["CACHE_TYPE"]                    = "FileSystemCache"
-app.config["CACHE_DIR"]                     = "flaskcache"
+app.config["CACHE_TYPE"]                    = "SimpleCache"
+# app.config["CACHE_DIR"]                     = "flaskcache"
 cache=Cache(app)
 
 from .classes import *

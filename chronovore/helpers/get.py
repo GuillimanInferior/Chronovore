@@ -49,9 +49,11 @@ def get_factions():
 
         return file_output
 
-
-
     return data
+
+@cache.memoize()
+def get_faction_objects():
+    return [get_faction(x['id']) for x in get_factions()]
 
 @cache.memoize()
 def get_keyword(keyword):
