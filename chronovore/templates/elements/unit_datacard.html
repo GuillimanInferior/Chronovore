@@ -241,6 +241,13 @@
 
     </div>
   </div>
+  {% if u.art and request.path.endswith(u.id) %}
+  <div class="row g-0">
+    <div class="card m=0 border-0">
+      <img class="img-fluid" src="/assets/images/art/{{ f.id }}/{{ u.id }}.jpg">
+    </div>
+  </div>
+  {% endif %}
   <div class="row g-0">
     <div class="col col-12 col-xxl-8">
       <div class="row g-0 overflow-auto">
