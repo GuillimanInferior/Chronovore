@@ -19,7 +19,7 @@
     "range_weapons": [
         "borer_beetles"
     ],
-    "melee_weapons": [],
+    "melee_weapons": ["speedling_talons"],
     "wargear": [],
     "composition":[
         "10-20 Speedlings"
@@ -27,6 +27,7 @@
     "models_min": 10,
     "models_max": 20,
     "default_gear":[
-        "borer_beetles"
+        "borer_beetles",
+        "speedling_talons"
     ]
 }
