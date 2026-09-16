@@ -23,15 +23,12 @@
 
   <h1 class="small-caps">{{ f.name }}</h1>
   <h2 class="small-caps">{{ d.name }}</h2>
-
-  {% with unit_listing = f.unit_listing %}
-  {% include "elements/unit_listing.html" %}
-  {% endwith %}
-
+  
   {% filter numbered_markdown %}
 
   # Table of Contents
   <ul>
+  <li><a href="#army_list">Army List</a></li>
   <li><a href="#{{ f.name | snake }}_faction_rules">Faction Rules</a></li>
   <li><a href="#{{ 'detachment:_'+d.name | snake }}">Detachment Rules</a></li>
   <li><a href="#strategems">Strategems</a></li>
@@ -47,6 +44,11 @@
   <li><a href="#{{ u.id }}">{{ u.name }}{{ ' ('+u.subtitle+')' if u.subtitle else '' }}</a></li>
   {% endfor %}
   </ul>
+
+  # Army List
+  {% with unit_listing = f.unit_listing %}
+  {% include "elements/unit_listing.html" %}
+  {% endwith %}
 
   {% include "elements/detachment_rules.html" %}
 
