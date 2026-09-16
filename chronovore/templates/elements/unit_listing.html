@@ -24,7 +24,9 @@
   {% set ns.total = ns.total + (session.get('qty_'+unit.faction.id+'_'+unit.id, 0) | int )*unit.ppm %}
   <tr id="unit_row_{{ unit.id }}" class="unit-row unit_cat_{{ role | snake }}{% if session.get('hide_rows') and not session.get('qty_'+unit.faction.id+'_'+unit.id, 0) %} d-none{% endif %}">
     <td class="align-middle">
-      {% if d %}
+      {% if request.path.endswith('/armylist') %}
+      <a href="#{{ unit.id }}">{{ unit.display_name }}</a>
+      {% elif d %}
       <a href="{{ d.permalink }}/unit/{{ unit.id }}">{{ unit.display_name }}</a>
       {% else %}
       <a href="{{ unit.permalink }}">{{ unit.display_name }}</a>
