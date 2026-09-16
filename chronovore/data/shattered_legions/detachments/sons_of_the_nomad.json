@@ -33,7 +33,7 @@
             "cost": 1,
             "when": "Your unit's Activation",
             "target": "Your +Shattered Legions+ unit being Activated",
-            "effect": "Until the end of the Battle Round, the target unit can Fall Back and still Shoot and Charge, and enemy units cannot fire Overwatch against it."
+            "effect": "Until the end of the Battle Round, the target unit can Shoot and Charge after making a Fall Back move, and enemy units cannot target it with the Fire Overwatch strategem."
         }
     ],
     "spells": [
