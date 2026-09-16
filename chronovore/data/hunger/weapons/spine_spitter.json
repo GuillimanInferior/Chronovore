@@ -1,0 +1,13 @@
+{
+    "name": "Spine Spitter",
+    "keywords": [
+        "Assault",
+        "Pistol"
+    ],
+    "rng": 12,
+    "atk": 3,
+    "skl": 4,
+    "str": 4,
+    "ap": 1,
+    "dmg": 1
+}

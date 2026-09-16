@@ -1,0 +1,11 @@
+{
+    "name": "Ravager Talons",
+    "keywords": [
+        "Lethal Hits"
+    ],
+    "atk": 6,
+    "skl": 3,
+    "str": 5,
+    "ap": 2,
+    "dmg": 1
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Ravagers",
+    "move": 10,
+    "tough": 5,
+    "save": 4,
+    "hp": 3,
+    "lead": 8,
+    "oc": 1,
+    "base": 40,
+    "keywords": [
+        "Infantry"
+    ],
+    "core_rules": [
+        "Deep Strike"
+    ],
+    "unit_rules": [
+        {
+            "name": "Tunnel Assault",
+            "text": "If this unit was set up on the battlefield this Activation using +Deep Strike+, it is eligible to Charge this Activation even if it Advanced, and you can re-roll Charge rolls made for it."
+        },
+        {
+            "name": "Subterranean Hunters",
+            "text": "Enemy units cannot use Overwatch against this unit in a Battle Round in which it was set up using +Deep Strike+."
+        }
+    ],
+    "range_weapons": [
+        "spine_spitter"
+    ],
+    "melee_weapons": [
+        "ravager_talons"
+    ],
+    "wargear": [],
+    "composition": [
+        "3-6 Ravagers"
+    ],
+    "models_min": 3,
+    "models_max": 6,
+    "default_gear": [
+        "spine_spitter",
+        "ravager_talons"
+    ],
+    "art": true
+}
