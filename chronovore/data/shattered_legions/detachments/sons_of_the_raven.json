@@ -10,7 +10,7 @@
         {
             "name": "Strike from Nowhere",
             "lore": "The Sons of the Raven vanish into the folds of time and reappear already mid-strike, leaving only corpses and unanswered questions.",
-            "text": "In the first Battle Round, +Shattered Legions+ units from your army are eligible to shoot in a turn in which they Advanced. In addition, each time a +Shattered Legions+ unit from your army is set up on the Battlefield using a Deep Strike or similar rule, until the end of the Battle Round weapons equipped by models in that unit have +[Precision]+."
+            "text": "In the first Battle Round, +Shattered Legions+ units from your army are eligible to shoot in a turn in which they Advanced. In addition, each time a +Shattered Legions+ unit from your army is set up on the Battlefield from Reserves, until the end of the Battle Round weapons equipped by models in that unit have +[Precision]+."
         }
     ],
     "strategems": [
