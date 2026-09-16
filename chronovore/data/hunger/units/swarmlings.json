@@ -24,10 +24,11 @@
     ],
     "wargear": [],
     "composition": [
+        "1-2 Swarm Nodeling",
         "10-20 Swarmlings"
     ],
-    "models_min": 10,
-    "models_max": 20,
+    "models_min": 11,
+    "models_max": 22,
     "default_gear": [
         "swarmling_claws"
     ],
