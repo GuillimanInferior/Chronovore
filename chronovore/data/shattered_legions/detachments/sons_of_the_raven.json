@@ -19,7 +19,7 @@
             "cost": 1,
             "when": "Your unit's Activation",
             "target": "Your +Shattered Legions+ +Infantry+ unit being Activated",
-            "effect": "Remove the target unit from the Battlefield and set it up again wholly within 9\" of its previous position and more than 9\" horizontally away from enemy models (or wholly within your deployment zone if that is not possible)."
+            "effect": "Remove the target unit from the Battlefield and set it up again wholly within 9\" of its previous position and more than 9\" horizontally away from enemy models."
         },
         {
             "name": "Silent Ambush",
