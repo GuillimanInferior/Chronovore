@@ -62,10 +62,11 @@ def faction_faction_detachment_detachment_armylist(faction, detachment):
 
     units.sort(key=lambda x:x.name)
 
-    return render_template(
-        "army.html",
-        f=f,
-        d=d,
-        color=d.color,
-        units=units
-        )
+    with session['hide_rows']=True:
+        return render_template(
+            "army.html",
+            f=f,
+            d=d,
+            color=d.color,
+            units=units
+            )
