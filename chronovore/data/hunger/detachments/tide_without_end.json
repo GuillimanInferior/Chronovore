@@ -45,7 +45,7 @@
         {
             "name": "Spawn Pulse",
             "difficulty": 8,
-            "effect": "Select one friendly +Hunger+ +Endless Swarm+ unit within 12\" that is below its Starting Strength. Return up to d3 destroyed models to that unit with their full Health remaining (they must be set up in Unit Coherency)."
+            "effect": "Select one friendly +Hunger+ +Endless Swarm+ unit within 12\" that is below its Starting Strength. Return up to d3 destroyed models to that unit with their full Health remaining."
         }
     ],
     "upgrades": [
