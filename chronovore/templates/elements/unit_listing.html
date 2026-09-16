@@ -84,6 +84,9 @@
     </td>
     <td class="text-center align-middle">{{ upgrade.cost }}</td>
     <td class="text-center align-middle">
+      {% if request.path.endswith('/armylist') %}
+      {{ session.get('qty_'+upgrade.faction.id+'_'+upgrade.id,'') }}
+      {% else %}
       <form id="form_qty_{{ upgrade.faction.id }}_{{ upgrade.id }}" method="post" action="/armylist" class="no-submit m-0">
         <input type="hidden" name="csrf_token" value="{{ g.csrf_token }}">
         <input type="hidden" name="faction" value="{{ upgrade.faction.id }}">
@@ -91,6 +94,7 @@
         <input id="qty_{{ upgrade.id }}" type="number" class="form-control list-qty mx-auto" min="0" data-min="1" max="1" data-max="1" data-unit-id="{{ upgrade.name | snake }}" data-form="form_qty_{{ upgrade.faction.id }}_{{ upgrade.id }}" placeholder="Max 1" value="{{ session.get('qty_'+upgrade.faction.id+'_'+upgrade.id,'') }}" name="qty">
         <input id="ppm_{{ upgrade.id }}" type="hidden" value="{{ upgrade.cost }}">
       </form>
+      {% endif %}
     </td>
     <td class="text-center align-middle"><span id="total_{{ upgrade.id }}" class="total_{{ upgrade.id }}">{{ (session.get('qty_'+upgrade.faction.id+'_'+upgrade.id, 0) | int)*upgrade.cost }}</span><input type="hidden" id="row_total_{{ upgrade.id }}" class="row_totals" value="{{(session.get('qty_'+upgrade.faction.id+'_'+upgrade.id,0)|int)*upgrade.cost}}"></td>
   </tr>
