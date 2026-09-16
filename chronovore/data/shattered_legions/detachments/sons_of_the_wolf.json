@@ -67,7 +67,7 @@
         {
             "name": "Alpha's Challenge",
             "cost": 40,
-            "text": "Melee weapons equipped by your +Warlord+ have +[Precision]+ and +[Devastating Wounds]+ when targeting +Character+ units."
+            "text": "Melee weapons equipped by your +Warlord+ have +[Precision]+ and +[Devastating Wounds]+."
         }
     ]
 }
