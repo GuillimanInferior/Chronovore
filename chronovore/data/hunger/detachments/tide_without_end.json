@@ -1,0 +1,69 @@
+{
+    "name": "Tide Without End",
+    "lore": "When the Hunger pours through a Rift in numbers beyond counting, individual beasts matter less than the weight of the living tide. Flesh falls, and more flesh rushes into the gap. The brood does not break; it merely redistributes.",
+    "rules": [
+        {
+            "name": "Insatiable Tide",
+            "lore": "Every casualty only draws the swarm closer. The more the prey fires into the mass, the faster the mass closes.",
+            "text": "Each time an enemy unit finishes making Shoot attacks, if one or more models from one or more friendly +Hunger+ +Endless Swarm+ units were destroyed as a result of those attacks, each such unit can make a Tide Surge. To do so, roll one d6: that unit can move a distance in inches up to the result, but must end that move as close as possible to the closest enemy unit. Models can end this move within Engagement Range of enemy units. A unit cannot make a Tide Surge while it is Battle-Shocked."
+        }
+    ],
+    "strategems": [
+        {
+            "name": "Goad the Tide",
+            "cost": 1,
+            "when": "Just before a friendly +Hunger+ +Endless Swarm+ unit within Hive Will range makes a Tide Surge",
+            "target": "That +Endless Swarm+ unit",
+            "effect": "When making that Tide Surge, you can re-roll the d6 that determines how far the unit moves, and the unit can end that move as close as possible to the closest objective marker instead of the closest enemy unit. All other Tide Surge rules still apply."
+        },
+        {
+            "name": "Teeming Flesh",
+            "cost": 1,
+            "when": "After an Activated enemy unit declares an attack",
+            "target": "A friendly +Hunger+ +Endless Swarm+ unit being attacked",
+            "effect": "Until the end of the Battle Round, each time an attack targets the selected unit, subtract 1 from the Hit roll."
+        },
+        {
+            "name": "Bounding Brood",
+            "cost": 1,
+            "when": "Your unit's Activation",
+            "target": "Your +Hunger+ +Endless Swarm+ unit being Activated",
+            "effect": "Until the end of the Battle Round, when the target unit Advances, do not make an Advance roll. Instead, add 6\" to the =person-running= Movement trait of models in that unit."
+        }
+    ],
+    "spells": [
+        {
+            "name": "Brood Chorus",
+            "difficulty": 6,
+            "effect": "Select one friendly +Hunger+ +Endless Swarm+ unit within 18\". Until the end of the Battle Round, that unit can re-roll Advance rolls and Charge rolls."
+        },
+        {
+            "name": "Hive Tremor",
+            "difficulty": 7,
+            "effect": "Select one enemy unit within 18\". Until the end of the Battle Round, that unit has -1 to Hit rolls, and if it is within Engagement Range of a friendly +Endless Swarm+ unit it must take a Battle-Shock test."
+        },
+        {
+            "name": "Spawn Pulse",
+            "difficulty": 8,
+            "effect": "Select one friendly +Hunger+ +Endless Swarm+ unit within 12\" that is below its Starting Strength. Return up to d3 destroyed models to that unit with their full Health remaining (they must be set up in Unit Coherency)."
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Spore-Born Scion",
+            "cost": 10,
+            "text": "At the start of the battle, gain 1 CP."
+        },
+        {
+            "name": "Adaptive Chitin",
+            "cost": 20,
+            "text": "Your +Warlord+ has !Feel No Pain 6+!. While it is within 6\" of a friendly +Endless Swarm+ unit, it has !Feel No Pain 5+! instead."
+        },
+        {
+            "name": "Will of the Swarm",
+            "cost": 40,
+            "text": "Friendly +Hunger+ +Endless Swarm+ units wholly within 9\" of your +Warlord+ are always considered to be within Hive Will range."
+        }
+    ],
+    "art": true
+}
