@@ -241,7 +241,7 @@
 
     </div>
   </div>
-  {% if u.art and (request.path.endswith(u.id) or request.args.get('show_art') %}
+  {% if u.art and (request.path.endswith(u.id) or request.args.get('show_art')) %}
   <div class="row g-0 mb-2 d-block d-xxl-none">
     <div class="card m-0 border-0">
       <img class="img-fluid" src="/assets/images/art/{{ f.id }}/{{ u.id }}.jpg">
@@ -367,7 +367,7 @@
           <p>FACTION:<br><span class="keyword-group">{{ ', '.join(u.faction_keywords) }}</span></p>
         </div>
       </div>
-      {% if u.art and request.path.endswith("/"+u.id) or request.args.get('show_art') %}
+      {% if u.art and (request.path.endswith("/"+u.id) or request.args.get('show_art')) %}
       <div class="row g-0 my-2 d-none d-xxl-block">
         <div class="card m-0 border-0">
           <img class="img-fluid" src="/assets/images/art/{{ f.id }}/{{ u.id }}.jpg">
